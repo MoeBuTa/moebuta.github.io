@@ -31,14 +31,57 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
+# 1. Clone and checkout repository      
       - name: Checkout
         uses: actions/checkout@v3
+
+# 2. setup Ruby development environment
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+
+          
+# 3. Setup cache
+      - name: Setup cache for Bundler
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            Gemfile.lock
+            vendor/bundle
+          key: ${{ runner.os }}-bundler-2-${{ hashFiles('Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-bundler-2-
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Setup cache for Node.js
+        id: cache-npm
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-npm-${{ hashFiles('package.json') }}          
+          
+ # 4. Install dependencies
+      - name: Install - Bundler
+        env:
+          MAKE: make -j2
+        run: |
+          bundle install --path=vendor/bundle --jobs=4 --retry=3
+          bundle clean
+
+      - name: Install - NPM
+        if: steps.cache-npm.outputs.cache-hit != 'true'
+        run: |
+          npm install --also=dev    
+               
+ # 5. Build site         
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
