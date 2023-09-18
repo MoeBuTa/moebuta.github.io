@@ -6,7 +6,7 @@ collection: project
 entries_layout: grid
 author_profile: true
 header:
-  overlay_image: "/source/header/mountain-2.jpg"
+  overlay_image: "/assets/source/image/nz/hamburger.png"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
 sidebar:
   nav: "home"

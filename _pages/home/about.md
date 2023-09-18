@@ -1,30 +1,82 @@
 ---
-title: "How to create an ultra fast blog"
-date: 2016-01-08 12:00
-category: blogging
-lead: What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.
-subtitle: Create a ultra fast, secure blog that is easy to mantain and easy to scale
+title: "About MoeBuTa"
+toc: true
+#sidebar:
+#  nav: "home"
+#author_profile: true
+#share: true
+#comments: true
 ---
+Master's graduate from The University of Western Australia with a degree in Software Engineering.
+
+Python, C, and Java are my primary programming languages for coursework and projects.
+
+Also, a weeb, a guitar fingerstyle lover, and a big fan of video games.
+
+## Projects
+
+🔐 [MTDSimTime](https://github.com/MoeBuTa/MTDSimTime) - A research project on the simulation and evaluation of multiple moving target defence in the time domain.
+
+🏥 [PubMedConnections](https://github.com/PubMedConnections/PubMedConnections) - A tool for exploring the relationships between authors in the PubMed database. 
+
+🛤️ [SlimeMould](https://github.com/MoeBuTa/SlimeMould) - A Python-based model simulating the slime mould's behaviour using the Nanjing subway system's geometric data.
+
+♟️ [ChineseChessTutorial](https://github.com/MoeBuTa/ChineseChessTutorial) - CITS3004 Agile Web Development project using Flask, Jinja, and Sqlite.
+
+🔢 [ComputationalAnalysis](https://github.com/MoeBuTa/ComputationalAnalysis) - CITS4009 Computational Analysis data visualisation project written in R.
+
+🖥️ [MachineLearning](https://github.com/MoeBuTa/MachineLearning) - CITS5508 Machine Learning lab assignments.
+
+☁️ [CloudComputing](https://github.com/MoeBuTa/CloudComputing) - AWS certification exam notes and CITS5503 Cloud Computing lab assignments.
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MoeBuTa&layout=donut&theme=tokyonight)](https://github.com/MoeBuTa/github-readme-stats)
+
+[//]: # ( [![MoeBuTa's GitHub stats]&#40;https://github-readme-stats.vercel.app/api?username=MoeBuTa&theme=tokyonight&#41;]&#40;https://github.com/MoeBuTa/github-readme-stats&show_icons=true&#41;)
+
+## Skills
+
+{::options parse_block_html="true" /}
+
+
+<details open markdown="1">
+<summary> **Currently using/learninge**
+</summary>
+ - **Programming**: Python, HTML/CSS/JS
+ - **Version Control**: Git
+ - **Web Development**: Flask, Jekyll, React.js, Django
+ - **Automation**: Shell scripts, Docker, GitHub Action, Systemd services
+</details>
+
+
+<details open markdown="1">
+<summary> **Other knowledge**
+</summary>
+ - **Programming**: R, C, Java
+ - **Version Control**: SVN
+ - **Web**: JQuery, Angular.js, Vue.js, Spring Boot, SpringMVC, MySQL, SQLite
+ - **Frameworks**: 
+   - Simulation: SimPy 
+   - Visualisation: Matplotlib, Seaborn, NetworkX, ggplot
+   - Data Processing: NumPy, Pandas, SciPy
+   - Machine Learning: Sckit-learn, PyTorch
+ - **Certification**: [AWS Certified Cloud Practitioner][AWS]
+ - **Text Editor**: Overleaf, Markdown, MS Word
+ - **Hardware**: Microcontroller Programming, Raspberry Pi
+</details>
+
+### Preferences
+
+- **Operating System**: Windows, Ubuntu (WSL 2), Debian (Raspberry pi)
+- **Version control**: Git
+- **IDE**: VS Code, PyCharm, IDEA, RStudio
+
+## Languages
+
+- **Chinese**: Native to Simplified (written) and Mandarin (spoken)
+- **English**: Proficient as a second language, preferred language for work and leisure
+- **Japanese**: Can follow basic conversations, thanks to Anime <i class='fa-brands fa-bilibili'></i>
 
 
 
-Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.
-
-Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.
-
-What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.
-
-A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.
-
-> For those who have seen the Earth from space, and for the hundreds and perhaps thousands more > who will, the experience most certainly changes your perspective. The things that we share in > our world are far more valuable than those which divide us.
-
-## The Final Frontier
-
-There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
-
-There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.
-
-> The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not > > yet mastered prophecy. We predict too much for the next year and yet far too little for the > > next ten.
-
-Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.
-
+  [UWA]: https://www.uwa.edu.au/
+  [AWS]: https://www.credly.com/badges/82057be6-157e-4f61-9707-8d84f519eef7/linked_in_profile

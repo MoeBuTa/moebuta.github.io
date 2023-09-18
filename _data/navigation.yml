@@ -3,11 +3,15 @@ main:
 #  - title: "Quick-Start Guide"
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-    url: /dip
+    url: /home/about
 #    url: /home/about/
   - title: "Blogs"
     url: /dip
 #    url: /home/blog/
   - title: "Anime"
     url: /dip
-#    url: /home/anime/
+  - title: "Game"
+    url: /dip
+  - title: "Fingerstyle"
+    url: /dip
+#    url: /home/fingerstyle/

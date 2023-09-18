@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "MoeBuTa"
   avatar           : "assets/source/image/avatar/avatar.png" # path of avatar source, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "UWA Software Engineering."
+  bio              : ""
   location         : "Perth, Australia"
   email            : "moebutamail@gmail.com"
   links:
@@ -234,8 +234,6 @@ sass:
 
 # Outputting
 #permalink: /:categories/:title/
-paginate: 5 # amount of _posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 source_url: "https://github.com/MoeBuTa/moebuta.github.io"
@@ -243,6 +241,21 @@ index_url: /home/blog/
 permalink: /home/blog/:year/:month/:title/
 #timezone: "Etc/UTC" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 date_format: "%b %-d, %Y" # "%b %-d, %Y at %-H:%M"
+
+
+paginate: null
+#paginate_path: "/blog/:num/"
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: "/:num/"
+  title: ":title - Page :num of :max"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
 
 
@@ -272,7 +285,7 @@ collections:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -280,7 +293,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -341,33 +354,35 @@ defaults:
         show_overlay_excerpt: false
       sidebar:
         nav: home
+      pagination: true
+
 
   - scope:
-      path: ""
-      type: home
+      path: "_pages"
+      type: pages
     values:
       #classes: wide
-      no_pagination: true
+      pagination: false
       header:
         overlay_image: "/assets/source/image/header/lake.png"
 
+#
+#  - scope:
+#      path: "_posts"
+#      type: posts
+#    values:
+#      read_time: true
+#      show_date: true
+#      related: true
+#      toc: true
+#      toc_label: "On this page"
 
-  - scope:
-      path: ""
-      type: posts
-    values:
-      read_time: true
-      show_date: true
-      related: true
-      toc: true
-      #toc_label: "On this page"
 
 
-
-  - scope:
-      path: ""
-      type: pages
-    values:
-      author_profile: false
-      comments: false
-      related: false
+#  - scope:
+#      path: ""
+#      type: pages
+#    values:
+#      author_profile: false
+#      comments: false
+#      related: false

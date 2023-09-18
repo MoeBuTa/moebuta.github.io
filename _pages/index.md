@@ -1,6 +1,6 @@
 ---
 title: "MoeBuTa"
-excerpt: "Developer, Gamer, Weeb"
+excerpt: "Student, Weeb, Gamer"
 layout: splash
 classes: ["landing"]
 permalink: /
@@ -8,8 +8,7 @@ header:
   overlay_image: "assets/source/image/home/lake.png"
   actions:
     - label: "<i class='fas fa-user-circle'></i> About"
-      url: "/dip"
-#      url: "/home/about/"
+      url: "/home/about/"
     - label: "<i class='fas fa-book'></i> Blog"
       url: "/dip"
 #      url: "/blog/"
