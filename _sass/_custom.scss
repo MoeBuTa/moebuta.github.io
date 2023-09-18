@@ -1,0 +1,279 @@
+@import "mixins";
+@import "fonts";
+
+@import "landing"; // Special layout for landing page
+@import "masthead";
+@import "page-content";
+@import "archive";
+@import "toc";
+
+body.layout--home h3.archive__subtitle {
+  display: none;
+}
+
+blockquote {
+  font-style: normal;
+  font-family: $serif;
+}
+
+details {
+  margin-bottom: 1.3em;
+  padding-left: 1em;
+  padding-inline-start: 1em;
+
+  > summary {
+    margin-left: 1em;
+    margin-inline-start: -1em;
+  }
+
+  &[open] > summary {
+    margin-bottom: 0.5em;
+    margin-block-end: 0.5em;
+  }
+}
+
+kbd {
+  min-width: 1.2em;
+  display: inline-block;
+  text-align: center;
+  font-family: $sans-serif;
+  font-size: 0.8em;
+  line-height: 1.4;
+  padding: 0.1em 0.4em;
+  margin: 0 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+  //background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
+ul, ol {
+  padding-inline-start: 1em;
+
+  .notice {
+    margin: 1em 0 !important;
+  }
+}
+
+.align-center {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0.2rem 0.2rem 0.4rem;
+}
+
+.border {
+  border: 1px solid $text-color;
+}
+
+.wide-only {
+  display: none;
+
+  @include breakpoint($large) {
+    display: initial;
+  }
+}
+
+.nonwide-only {
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+// ================
+
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+  @include breakpoint($medium) { font-size: 16px; }
+  @include breakpoint($large) { font-size: 18px; }
+  @include breakpoint($x-large) { font-size: 20px; }
+}
+
+// Header and footer width
+div.masthead div.masthead__inner-wrap,
+div.page__footer footer {
+  max-width: 100%;
+}
+
+#main {
+  padding-top: 1em;
+  @include breakpoint($x-large) { max-width: 1440px; }
+}
+
+div.page__hero--overlay {
+  text-align: center;
+  padding-top: 8em;
+  padding-bottom: 3em;
+  margin-bottom: 0;
+
+  .page__title, .page__meta, .comment__date, .page__lead, .btn {
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  }
+
+  .page__title:last-child {
+    padding-bottom: 1rem;
+  }
+
+  a.btn {
+    backdrop-filter: blur(1.5px);
+  }
+
+  p.page__lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page__meta {
+    .page__meta-sep, .page__meta-readtime {
+      display: none;
+    }
+  }
+
+  .page__hero-caption {
+    transition: opacity 0.3s linear;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.page__meta-sep {
+  &::before {
+    content: "\2022";
+    margin: 0 0.5em;
+  }
+}
+
+.nav__items li {
+  ul li, ol li {
+    line-height: 1.6;
+  }
+}
+
+/*
+div.feature__item {
+.archive__item {
+.archive__item-title, .archive__item-excerpt {
+text-align: center;
+}
+
+.archive__item-excerpt + p {
+text-align: center;
+}
+}
+}
+ */
+
+.search-content {
+  position: relative;
+  margin-top: 4em;
+
+  &::before {
+    content: '';
+    height: 4em;
+    position: absolute;
+    top: -4em;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url("/image/header/thin/whimsical.png") center/cover no-repeat;
+    background-color: mix($primary-color, #00ef98, 90%);
+  }
+}
+
+.page__taxonomy-item {
+  padding: .3em .6em;
+
+  &:hover {
+    background-color: rgba(34, 34, 34, 0.1);
+  }
+}
+
+.pagination {
+  text-align: center;
+
+  ul {
+    display: inline-block;
+
+    li a {
+      @include pro-font;
+      font-size: .9em;
+      transition: background-color 0.3s ease-in-out, color 0.1s ease-in-out;
+
+      &:not(disabled):hover {
+        //color: white;
+        background-color: $primary-color;
+      }
+    }
+  }
+}
+
+.page__footer footer {
+  text-align: center;
+
+  p, ul li, ol li {
+    margin: 0;
+  }
+
+  .page__footer-follow .social-icons {
+    .fa, .fas, .far, .fab {
+      //color: white;
+    }
+  }
+
+  .version-text {
+    @include pro-font;
+  }
+
+  .version-code {
+    font-family: $monospace;
+  }
+}
+
+/********** Misc **********/
+
+.svg-inline {
+  display: inline-block;
+
+  > svg {
+    height: 1em;
+  }
+}
+
+.sidebar p, .sidebar li {
+  font-size: $type-size-7;
+}
+
+.sidebar .social-icons, .sidebar .nav__list {
+  .fas, .far, .fab, .fal {
+    color: inherit;
+  }
+}
+
+a.site-logo > img, div.author__avatar:hover > img {
+  animation: spin-periodically 5000ms infinite ease-in-out;
+}
+
+.language-console .highlight .gp {
+  user-select: none;
+}
+
+/********** Animations **********/
+
+@import "loading-animation";
+
+@keyframes spin-periodically {
+  80% { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

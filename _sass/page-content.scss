@@ -1,0 +1,207 @@
+section.page__content {
+  aside:first-child + * {
+    margin-top: 0 !important;
+  }
+
+  .toc .nav__title {
+    margin-top: 0;
+    padding: 0.5rem;
+    font-size: 0.8em;
+  }
+
+  .toc .toc__menu a:not(.btn) {
+    color: $text-color;
+    transition: background-color 0.2s linear;
+  }
+
+  a:not(.btn) {
+    $link-color: mix($primary-color, $text-color, 75%);
+    word-break: break-word;
+    color: $link-color;
+    text-decoration: underline;
+    transition: text-decoration-color 0.2s linear;
+
+    &.footnote {
+      &::before {
+        content: "[";
+      }
+      &::after {
+        content: "]";
+      }
+    }
+
+    &:not(:hover) {
+      text-decoration-color: transparent;
+    }
+
+    img {
+      border-color: $link-color;
+    }
+  }
+
+  h1 {
+    margin-top: 1.2em;
+    padding-bottom: 0.4em;
+    font-size: 1.67em;
+    border-bottom: 1px solid $border-color;
+  }
+
+  h2 {
+    font-size: 1.33em;
+  }
+
+  h3 {
+    font-size: 1.17em;
+    //margin-bottom: 0.2em;
+    //padding-bottom: 0.3em;
+    //border-bottom: 1px dotted $border-color;
+  }
+
+  h4 {
+    font-size: 1.083em;
+  }
+
+  h5 {
+    font-size: 1.042em;
+  }
+
+  h6 {
+    font-size: 1em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5em;
+
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+  }
+
+  table {
+    display: table;
+    width: auto;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    tr, th, td {
+      word-break: break-word;
+    }
+  }
+
+  details {
+    summary {
+      > p {
+        margin: 0;
+        display: inline;
+      }
+    }
+  }
+
+  li p {
+    margin-bottom: 0.7em;
+  }
+
+  a:hover img.card {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  img.block, p > img:only-child {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.border {
+    transition: border-color 0.2s linear;
+  }
+
+  pre {
+    .copy-button {
+      position: absolute;
+      top: 0.6em;
+      right: 0.5em;
+      z-index: 1;
+      background: none;
+      border: none;
+      border-radius: 0.1em;
+      padding: 0.2em 0.5em;
+      //color: white;
+      opacity: 0.5;
+      transition: color 0.25s linear -0.25s, opacity 0.25s linear;
+
+      &:hover {
+        //color: #ffffca;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+      }
+    }
+
+    &:hover .copy-button {
+      opacity: 1;
+    }
+  }
+
+  :not(pre) > code {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: 0.8em;
+    //background: $code-background-color;
+    //background-color: rgba(255, 255, 255, 0.5);
+    border-radius: $border-radius;
+
+    &::before,
+    &::after {
+      letter-spacing: -0.2em;
+      content: "\00a0"; /* non-breaking space*/
+    }
+  }
+
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    font-size: 0.91em !important;
+
+    > h1,
+    > h2,
+    > h3,
+    > h4,
+    > h5,
+    > h6 {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .notice--danger {
+    background-color: #ffecec;
+  }
+
+  .btn--primary,
+  .btn--success,
+  .btn--warning,
+  .btn--danger,
+  .btn--info {
+    color: white;
+  }
+
+  dd {
+    font-size: 0.833333em;
+  }
+}

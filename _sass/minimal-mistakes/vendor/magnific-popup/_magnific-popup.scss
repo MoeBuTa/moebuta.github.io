@@ -33,7 +33,7 @@
 
 $mfp-overlay-color:                   #0b0b0b !default;
 $mfp-overlay-opacity:                 0.8 !default;
-$mfp-shadow:                          0 0 8px rgba(0, 0, 0, 0.6) !default; // shadow on image or iframe
+$mfp-shadow:                          0 0 8px rgba(0, 0, 0, 0.6) !default; // shadow on source or iframe
 $mfp-popup-padding-left:              8px !default; // Padding from left and from right side
 $mfp-popup-padding-left-mobile:       6px !default; // Same as above, but is applied when width of window is less than 800px
 
@@ -185,7 +185,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   user-select: none;
 }
 
-// Hide the image during the loading
+// Hide the source during the loading
 .mfp-loading {
   &.mfp-figure {
     display: none;
@@ -458,7 +458,7 @@ button {
 // Image content type
 @if $mfp-include-image-type {
 
-  /* Main image in popup */
+  /* Main source in popup */
   img {
     &.mfp-img {
       width: auto;
@@ -474,7 +474,7 @@ button {
     }
   }
 
-  /* The shadow behind the image */
+  /* The shadow behind the source */
   .mfp-figure {
     line-height: 0;
     &:after {
@@ -539,7 +539,7 @@ button {
   @if $mfp-include-mobile-layout-for-image {
     @media screen and (max-width: 800px) and (orientation:landscape), screen and (max-height: 300px) {
       /**
-       * Remove all paddings around the image on small screen
+       * Remove all paddings around the source on small screen
        */
       .mfp-img-mobile {
         .mfp-image-holder {
@@ -552,7 +552,7 @@ button {
           }
         }
         .mfp-figure {
-          // The shadow behind the image
+          // The shadow behind the source
           &:after {
             top: 0;
             bottom: 0;

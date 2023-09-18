@@ -13,8 +13,12 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
+gem "jekyll", '~> 4.3', '>= 4.3.1'
+gem "minimal-mistakes-jekyll", '>= 4.24.0'
+gem "kramdown", '>= 2.3.0'
+gem "liquid-c", '~> 4.0'
+gem "rouge", '~> 4.0'
+
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -33,4 +37,14 @@ group :jekyll_plugins do
     gem "jekyll-include-cache"
     gem "jekyll-algolia"
     gem "jekyll-archives"
+
+    gem "jekyll-relative-links"
+    gem "jekyll-optional-front-matter"
+    gem "jekyll-github-metadata"
+    gem "jekyll-redirect-from"
+    gem "jekyll-mentions"
+    gem "jekyll-environment-variables"
+    gem "jekyll-data"
+#     gem "jekyll-tidy"
+    gem "jekyll-last-modified", '>= 1.0.3'
 end

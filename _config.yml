@@ -24,35 +24,35 @@ description              : "An amazing website."
 url                      : "https://moebuta.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "MoeBuTa/moebuta.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser source, e.g. "/assets/images/500x300.png"
+logo                     : "assets/source/image/avatar/favicon.png" # path of logo source to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "moebuta" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
-  utterances:
-    theme                : "github-dark" # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+#  discourse:
+#    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#  facebook:
+#    # https://developers.facebook.com/docs/plugins/comments
+#    appid                :S
+#    num_posts            : # 5 (default)
+#    colorscheme          : "dark" # "light" (default), "dark"
+#  utterances:
+#    theme                : "github-dark" # "github-light" (default), "github-dark"
+#    issue_term           : # "pathname" (default)
+#  giscus:
+#    repo_id              : # Shown during giscus setup at https://giscus.app
+#    category_name        : # Full text name of the category
+#    category_id          : # Shown during giscus setup at https://giscus.app
+#    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+#    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+#    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+#  staticman:
+#    branch               : # "master"
+#    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -86,7 +86,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : # Open Graph/Twitter default site source
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -105,29 +105,35 @@ analytics:
 # Site Author
 author:
   name             : "MoeBuTa"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/source/image/avatar/avatar.png" # path of avatar source, e.g. "/assets/images/bio-photo.jpg"
   bio              : "UWA Software Engineering."
-  location         : "Somewhere"
-  email            :
+  location         : "Perth, Australia"
+  email            : "moebutamail@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      url: "moebutamail@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://moebuta.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/MoeBuTa"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/wenxiao-zhang-a0801b206/"
+#    - label: "BILIBILI"
+#      icon: "fa-brands fa-bilibili"
+#      url: "https://space.bilibili.com/198297428?spm_id_from=333.1007.0.0/"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      # url: "https://twitter.com/"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      # url: "https://facebook.com/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -206,21 +212,62 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  #smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  math_engine: mathjax
+  parse_block_html: false # true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      #start_line: 1
 
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  quiet_deps: true
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+#permalink: /:categories/:title/
+paginate: 5 # amount of _posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+source_url: "https://github.com/MoeBuTa/moebuta.github.io"
+index_url: /home/blog/
+permalink: /home/blog/:year/:month/:title/
+#timezone: "Etc/UTC" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+date_format: "%b %-d, %Y" # "%b %-d, %Y at %-H:%M"
+
+
+
+
+autopages:
+  enabled: true
+  categories:
+    layouts: ['autopages.html']
+    title: 'Category: :cat'
+    permalink: '/category/:cat'
+  collections:
+    layouts: ['autopages.html']
+    title: 'Collection: :coll'
+    permalink: '/collection/:coll'
+  tags:
+    layouts: ['autopages.html']
+    title: 'Tag: :tag'
+    permalink: '/tag/:tag'
+
+collections:
+  pages:
+    output: true
+    permalink: "/:path/"
+
+
 
 
 # Plugins (previously gems:)
@@ -279,14 +326,48 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      related: false
+      toc_sticky: true
+      toc_icon: "file-alt fa-fw"
+      header:
+        overlay_image: "/assets/source/image/header/lake.png"
+        show_overlay_excerpt: false
+      sidebar:
+        nav: home
+
+  - scope:
+      path: ""
+      type: home
+    values:
+      #classes: wide
+      no_pagination: true
+      header:
+        overlay_image: "/assets/source/image/header/lake.png"
+
+
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
       read_time: true
-      comments: # true
-      share: true
+      show_date: true
       related: true
+      toc: true
+      #toc_label: "On this page"
+
+
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: false
+      comments: false
+      related: false

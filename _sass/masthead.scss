@@ -1,0 +1,71 @@
+div.masthead {
+  height: 0;
+  border-bottom: none;
+  //background: url("/image/header/thin/whimsical.png") center/cover no-repeat;
+
+  nav#site-nav {
+    //color: white;
+    background: transparent;
+
+    a.site-logo {
+      @include noselect;
+    }
+
+    a.site-title {
+      @include cute-font;
+      @include noselect;
+      font-size: 1.18532em;
+    }
+  }
+
+  .greedy-nav > a,
+  .visible-links a,
+  .search__toggle {
+    color: inherit;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  .hidden-links a {
+    color: inherit;
+  }
+
+  .greedy-nav {
+    background: initial;
+
+    .visible-links a {
+      &:before {
+        //background: white;
+        transition: transform 0.2s ease-in-out;
+        transform-origin: bottom right;
+      }
+
+      &:hover::before {
+        transform-origin: bottom left;
+      }
+    }
+
+    .hidden-links {
+      background-color: #006e9c;
+
+      &:after {
+        border-color: #006e9c transparent;
+      }
+
+      a {
+        color: inherit;
+      }
+    }
+
+    &__toggle.close::before {
+      opacity: 0;
+    }
+
+    .navicon {
+      &::before,
+      &,
+      &::after {
+        //background-color: white;
+      }
+    }
+  }
+}

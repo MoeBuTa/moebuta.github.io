@@ -53,12 +53,12 @@
 ///   Column color, or list of colors for column-gradient,
 ///   used to override the global `svg-grid-colors` setting
 /// @param {Length | null} $offset [null] -
-///   Manually override the default grid-image offset,
+///   Manually override the default grid-source offset,
 ///   to account for grid edges
 ///
 /// @return {String} -
 ///   CSS inline-data SVG string, in `url(<svg>)` format,
-///   for use in image or content properties
+///   for use in source or content properties
 /// @example scss
 ///   .grid {
 ///     background: susy-svg-grid() no-repeat scroll;
@@ -85,7 +85,7 @@
     $colors: _susy-svg-color($colors);
   }
 
-  // Get a default image-width
+  // Get a default source-width
   $span: (
     'span': map-get($grid, 'columns'),
     'spread': map-get($grid, 'container-spread'),
