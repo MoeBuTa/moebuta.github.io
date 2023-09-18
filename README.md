@@ -1,6 +1,6 @@
 # moebuta.github.io
 
-[![GitHub Actions](https://github.com/MoeBuTa/moebuta.github.io/workflows/jekyll.yml/badge.svg)](https://github.com/MoeBuTa/moebuta.github.io/actions)
+[![GitHub Actions](https://github.com/MoeBuTa/moebuta.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/MoeBuTa/moebuta.github.io/actions)
 
 npm config set registry http://registry.npmjs.org/ --global
 
