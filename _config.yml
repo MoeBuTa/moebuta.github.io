@@ -345,7 +345,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
       related: false
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
