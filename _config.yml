@@ -367,14 +367,14 @@ defaults:
         overlay_image: "/assets/source/image/header/lake.png"
 
 #
-#  - scope:
-#      path: "_posts"
-#      type: posts
-#    values:
-#      read_time: true
-#      show_date: true
-#      related: true
-#      toc: true
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      read_time: true
+      show_date: true
+      related: true
+      toc: true
 #      toc_label: "On this page"
 
 

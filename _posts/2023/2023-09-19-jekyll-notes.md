@@ -3,23 +3,36 @@ title: "Jekyll Notes"
 tags: development
 ---
 
+A note for recording useful commands and concepts of Jekyll during learning and developing this website.
 
+## Some useful commands
 
+node repository
+```console
 npm config set registry http://registry.npmjs.org/ --global
 
 npm cache clear --force
 
 npm install --verbose
+```
 
+Jekyll build & deploy
+```console
 bundle install
 
-bundle exec jekyll build --trace --profile --lsi
+bundle exec jekyll build 
 
-bundle exec jekyll serve --incremental --livereload
+bundle exec jekyll serve
+
+# build options: --trace --profile --lsi
+# serve options: --incremental --livereload
+```
 
 
-jekyll notes:
 
+## [Jekyll][jekyll] notes
+
+Further details in [udemy tutorial]: https://www.udemy.com/course/static-website-generator-fast-secure-sites-blogs-with-jekyll/
  - YAML front matter
    - a form of yaml that Jekyll uses for maintaining information about a page and its content.
    - frontmatter blocks always appear at the top of the file
@@ -45,3 +58,9 @@ jekyll notes:
    - manage a folder of text-files
    - require blog post files to be named according to:
      - YEAR-MONTH-DAY-title.MARKUP
+
+
+[jekyll]: https://jekyllrb.com/docs/
+
+[tutorial]: https://www.udemy.com/course/static-website-generator-fast-secure-sites-blogs-with-jekyll/
+
