@@ -4,7 +4,8 @@ categories: Article
 
 ---
 
-The following articles are copied from the resource in a [udemy tutorial][tutorial]. I am trying to keep it as a first post of this website.
+The following articles are copied from the resource in a [udemy tutorial][tutorial], where I learned basic knowledge of how to build and deploy a Jekyll-based website. I will keep them together in this page 
+as a first post of this website.
 
 
 ## Why use Jekyll

@@ -14,16 +14,20 @@ header:
       url: "/home/blog/"
     - label: "<i class='fab fa-github'></i> GitHub"
       url: "https://github.com/MoeBuTa"
-    - label: "<i class='fab fa-linkedin'></i> LinkedIn"
-      url: "https://www.linkedin.com/in/wenxiao-zhang-a0801b206/"
   show_overlay_excerpt: true
 ---
 
 ### Extra links {#links}
 
 
-[Development In Progress](/dip).
 
+My [<i class='fab fa-linkedin'></i> LinkedIn](https://www.linkedin.com/in/wenxiao-zhang-a0801b206/), where I network with people.
+
+My [<i class='fab fa-facebook'></i> Facebook](https://www.facebook.com/profile.php?id=100027407554241), where I connect with friends.
+
+My [<i class='fa-brands fa-bilibili'></i> Bilibili](https://space.bilibili.com/198297428?spm_id_from=333.1007.0.0), where I post videos and previously watched anime.
+
+My [<i class='fab fa-fw fa-steam'></i> Steam](https://steamcommunity.com/profiles/76561198096855078/), where I play games.
 
 [//]: # (- And [<i class="fas fa-fw fa-globe-americas"></i> my friends' websites]&#40;{{ "/friends/" | relative_url }}&#41;.)
 

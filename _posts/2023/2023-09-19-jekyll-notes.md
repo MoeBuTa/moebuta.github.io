@@ -1,10 +1,10 @@
 ---
 title: "Jekyll Notes"
 tags: Jekyll
-categories: Programming
+categories: Tech
 ---
 
-A note for recording useful commands and concepts of Jekyll during learning and developing this website.
+A note for writing down useful commands and concepts of Jekyll during the development of this website. Might continuously update it...
 
 ## Some useful commands
 
@@ -33,7 +33,7 @@ bundle exec jekyll serve
 
 ## [Jekyll][jekyll] notes
 
-Further details in [udemy tutorial]: https://www.udemy.com/course/static-website-generator-fast-secure-sites-blogs-with-jekyll/
+Further details in [udemy tutorial](https://www.udemy.com/course/static-website-generator-fast-secure-sites-blogs-with-jekyll/)
  - YAML front matter
    - a form of yaml that Jekyll uses for maintaining information about a page and its content.
    - frontmatter blocks always appear at the top of the file

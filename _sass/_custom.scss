@@ -7,6 +7,10 @@
 @import "archive";
 @import "toc";
 
+body {
+  cursor: url("/assets/source/image/cursor/icon.png"), default;
+}
+
 body.layout--home h3.archive__subtitle {
   display: none;
 }
@@ -261,9 +265,9 @@ text-align: center;
   }
 }
 
-//a.site-logo > img, div.author__avatar:hover > img {
-//  animation: spin-periodically 5000ms infinite ease-in-out;
-//}
+a.site-logo > img, div.author__avatar:hover > img {
+  animation: spin-periodically 5000ms infinite ease-in-out;
+}
 
 .language-console .highlight .gp {
   user-select: none;

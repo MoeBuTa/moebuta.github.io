@@ -7,7 +7,7 @@ toc: true
 #share: true
 #comments: true
 ---
-Master's graduate from The University of Western Australia with a degree in Software Engineering.
+A graduate from The University of Western Australia with Master's degree in Software Engineering.
 
 Python, C, and Java are my primary programming languages for coursework and projects.
 
@@ -39,7 +39,7 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
 
 <details open markdown="1">
-<summary> **Currently using/learninge**
+<summary> **Currently using/learning**
 </summary>
  - **Programming**: Python, HTML/CSS/JS
  - **Version Control**: Git
@@ -66,7 +66,7 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
 ### Preferences
 
-- **Operating System**: Windows, Ubuntu (WSL 2), Debian (Raspberry pi)
+- **Operating System**: Windows, Ubuntu (WSL 2), Debian (Raspberry Pi)
 - **Version control**: Git
 - **IDE**: VS Code, PyCharm, IDEA, RStudio
 
@@ -76,6 +76,11 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 - **English**: Proficient as a second language, preferred language for work and leisure
 - **Japanese**: Can follow basic conversations, thanks to Anime <i class='fa-brands fa-bilibili'></i>
 
+## Entertainments
+
+- [Anime](/dip)
+- [Game](/dip)
+- [Fingerstyle](/dip)
 
 
   [UWA]: https://www.uwa.edu.au/
