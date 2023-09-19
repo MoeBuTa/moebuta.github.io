@@ -8,12 +8,8 @@ These notes were created during my preparation for the [AWS Cloud Practitioner E
 They help me memorise essential points and knowledge commonly found in frequently asked questions.
 
 The exam requires a substantial amount of knowledge to be memorised, particularly for those new to AWS and cloud computing.
-I prepared for the AWS Cloud Practitioner Exam by taking the following steps:
 
- 
-so I practiced with test questions and reviewed any questions I answered incorrectly or felt uncertain about. This was especially important for me because I was new to AWS and cloud computing.
-
-To give you some context, I had some basic experience with AWS services from a unit I took a year ago before I started preparing for the exam.
+To give you some context, I had some basic experience with AWS services from a unit I took a year ago before I started preparing for the exam. 
 
 To supplement my knowledge, I watched about half of the lectures in this [udemy tutorial][tutorial].
 
