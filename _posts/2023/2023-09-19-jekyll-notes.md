@@ -1,7 +1,7 @@
 ---
 title: "Jekyll Notes"
 tags: Jekyll
-categories: Dev Notes
+categories: Tech
 ---
 
 A note for writing down useful commands and concepts of Jekyll during the development of this website. Might continuously update it...

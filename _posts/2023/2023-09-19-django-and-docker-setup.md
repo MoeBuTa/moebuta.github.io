@@ -1,7 +1,7 @@
 ---
 title: "Django and Docker Setup"
 tags: Django
-categories: Dev Notes
+categories: Tech
 ---
 
 Notes for learning how to set up Django with Docker, constantly updated...
