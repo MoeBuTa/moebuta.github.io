@@ -13,6 +13,8 @@ Python, C, and Java are my primary programming languages for coursework and proj
 
 Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
+Having an idea, working hard to realise it, and enjoying the feeling of happiness.
+
 ## Projects
 
 🔐 [MTDSimTime](https://github.com/MoeBuTa/MTDSimTime) - A research project on the simulation and evaluation of multiple moving target defence in the time domain.

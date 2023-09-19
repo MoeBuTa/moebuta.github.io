@@ -1,6 +1,6 @@
 ---
 title: "MoeBuTa"
-excerpt: "Student, Weeb, Gamer"
+excerpt: "Having an idea, working hard to realise it, and enjoying the feeling of happiness."
 layout: splash
 classes: ["landing"]
 permalink: /

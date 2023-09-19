@@ -20,7 +20,7 @@ title                    : "MoeBuTa's Website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "MoeBuTa"
-description              : "An amazing website."
+description              : "There is an idea, working hard to realize it, and this feeling is happiness."
 url                      : "https://moebuta.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "MoeBuTa/moebuta.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "MoeBuTa"
   avatar           : "assets/source/image/avatar/avatar.png" # path of avatar source, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  bio              : "Student, Weeb, Gamer"
   location         : "Perth, Australia"
   email            : "moebutamail@gmail.com"
   links:
