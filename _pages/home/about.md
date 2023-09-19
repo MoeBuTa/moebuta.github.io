@@ -43,9 +43,9 @@ Having an idea, working hard to realise it, and enjoying the feeling of happines
 <details open markdown="1">
 <summary> **Currently using/learning**
 </summary>
- - **Programming**: Python, HTML/CSS/JS
+ - **Programming**: Python, C
  - **Version Control**: Git
- - **Web Development**: Flask, Jekyll, React.js, Django
+ - **Web Development**: HTML/CSS/JS, Flask, Jekyll, React.js, Django
  - **Automation**: Shell scripts, Docker, GitHub Action, Systemd services
 </details>
 
@@ -53,7 +53,7 @@ Having an idea, working hard to realise it, and enjoying the feeling of happines
 <details open markdown="1">
 <summary> **Other knowledge**
 </summary>
- - **Programming**: R, C, Java
+ - **Programming**: R, Java
  - **Version Control**: SVN
  - **Web**: JQuery, Angular.js, Vue.js, Spring Boot, SpringMVC, MySQL, SQLite
  - **Frameworks**: 
