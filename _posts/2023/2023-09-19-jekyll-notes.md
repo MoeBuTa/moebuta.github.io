@@ -1,6 +1,7 @@
 ---
 title: "Jekyll Notes"
-tags: development
+tags: Jekyll
+categories: Programming
 ---
 
 A note for recording useful commands and concepts of Jekyll during learning and developing this website.

@@ -1,6 +1,7 @@
 ---
 title: "My First Post"
-tags: life
+categories: Article
+
 ---
 
 The following articles are copied from the resource in a [udemy tutorial][tutorial]. I am trying to keep it as a first post of this website.

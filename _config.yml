@@ -310,12 +310,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -327,6 +327,24 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
+category_archive:
+  type: jekyll-archives # liquid
+  path: /home/category/
+tag_archive:
+  type: jekyll-archives # liquid
+  path: /home/tag/
+# https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - year
+    # categories
+    # tags
+  layout: archive-taxonomy
+  layouts: {}
+  permalinks:
+    year: /year/:year/
+    category: /category/:name/
+    tag: /tag/:name/
 
 
 # HTML Compression
