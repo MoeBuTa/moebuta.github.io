@@ -8,6 +8,7 @@ header:
 
 Yesterday I just completed a digital interview from Deloitte. Previously I just directly being rejected by them right after I applied from the position.
 So this is the first time I received a digital interview invitation from Deloitte, which is a good experience for me to learn and practice my interview skills.
+The position I applied for is [Tax - Research and Development - Gi3 - 2024 Graduate Program (Perth)][Tax].
 
 ## About the digital interview
 
@@ -57,3 +58,9 @@ So this is the first time I received a digital interview invitation from Deloitt
          By serving as this bridge between technical components, our project workflow remained seamless, resulting in a highly functional and well-integrated end product.
         </details>
 
+## Summary
+
+
+While I acknowledge that my current interview capabilities may be limited, I believe it's still worthwhile to prepare for future opportunities, even though I may have little hope of progressing to the next step, which is an in-person interview.
+
+[Tax]:https://jobs.deloitte.com.au/job/Perth-Tax-Research-and-Development-Gi3-2024-Graduate-Program-%28Perth%29-WA/935852810/
