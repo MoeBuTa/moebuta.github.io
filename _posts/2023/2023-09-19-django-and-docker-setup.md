@@ -21,7 +21,7 @@ docker-compose run --rm app sh -c "python manage.py collectstatic"
  - `" "` command to run inside container
 
 docker-compose.yml
-```yml
+```yaml
 version: "3.9" # version of docker-compose syntax
 
 services:
