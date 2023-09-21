@@ -240,8 +240,8 @@ sass:
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 source_url: "https://github.com/MoeBuTa/moebuta.github.io"
-index_url: /home/blog/
-permalink: /home/blog/:year/:month/:title/
+index_url: /blog/
+permalink: /blog/:year/:month/:title/
 #timezone: "Etc/UTC" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 date_format: "%b %-d, %Y" # "%b %-d, %Y at %-H:%M"
 
@@ -268,15 +268,15 @@ autopages:
   categories:
     layouts: ['autopages.html']
     title: 'Category: :cat'
-    permalink: '/category/:cat'
+    permalink: '/blog/category/:cat'
   collections:
     layouts: ['autopages.html']
     title: 'Collection: :coll'
-    permalink: '/collection/:coll'
+    permalink: '/blog/collection/:coll'
   tags:
     layouts: ['autopages.html']
     title: 'Tag: :tag'
-    permalink: '/tag/:tag'
+    permalink: '/blog/tag/:tag'
 
 collections:
   pages:
@@ -332,22 +332,22 @@ whitelist:
 #     tag: /tags/:name/
 category_archive:
   type: jekyll-archives # liquid
-  path: /home/category/
+  path: /blog/category/
 tag_archive:
   type: jekyll-archives # liquid
-  path: /home/tag/
+  path: /blog/tag/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - year
-    # categories
-    # tags
+    - categories
+    - tags
   layout: archive-taxonomy
   layouts: {}
   permalinks:
-    year: /year/:year/
-    category: /category/:name/
-    tag: /tag/:name/
+    year: /blog/year/:year/
+    category: /blog/category/:name/
+    tag: /blog/tag/:name/
 
 
 # HTML Compression

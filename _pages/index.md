@@ -8,10 +8,10 @@ header:
   overlay_image: "assets/source/image/home/lake.png"
   actions:
     - label: "<i class='fas fa-user-circle'></i> About"
-      url: "/home/about/"
+      url: "/about/"
     - label: "<i class='fas fa-book'></i> Blog"
 #      url: "/dip"
-      url: "/home/blog/"
+      url: "/blog/"
     - label: "<i class='fab fa-github'></i> GitHub"
       url: "https://github.com/MoeBuTa"
   show_overlay_excerpt: true

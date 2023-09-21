@@ -1,11 +1,6 @@
 ---
 title: "About MoeBuTa"
 toc: true
-#sidebar:
-#  nav: "home"
-#author_profile: true
-#share: true
-#comments: true
 ---
 I'm MoeBuTa (nickname) / Wenxiao (legal name) / Wes (English name).
 

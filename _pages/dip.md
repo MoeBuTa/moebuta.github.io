@@ -4,7 +4,7 @@ permalink: /dip
 layout: splash
 classes: ["landing"]
 header:
-  overlay_image: "assets/source/image/home/lake.png"
+  overlay_image: "assets/source/image/blog/lake.png"
   actions:
     - label: "<i class='fas fa-frown'></i> Back"
       url: "/"

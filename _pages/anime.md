@@ -6,7 +6,7 @@ header:
   overlay_image: "assets/source/anime/image/elaina-window.png"
   actions:
     - label: "<i class='fas fa-user-circle'></i> About"
-      url: "/home/about/"
+      url: "/blog/about/"
     - label: "<i class='fa-brands fa-bilibili'></i> BILIBILI"
       url: "https://space.bilibili.com/198297428?spm_id_from=333.1007.0.0/"
 ---
