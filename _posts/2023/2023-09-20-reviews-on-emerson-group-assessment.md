@@ -6,6 +6,8 @@ header:
   teaser: /assets/source/image/teaser/emerson-group-assessment.png
 ---
 
+{::options parse_block_html="true" /}
+
 Last Tuesday, I participated in Emerson Australia's assessment day at Swan River Room 2, Ritz-Carlton Perth. 
 It was my first interview for a graduate program, and I was one of about 20 participants. 
 Surprisingly, the HR team mentioned that we were chosen from a pool of over 300 candidates, 
@@ -33,5 +35,21 @@ Potential reasons:
  - Even though I believe I contributed some valuable ideas and shared them with my teammates during the activities, I'm uncertain if the assessors took notice, considering the longer periods of silence on my part.
 
 
-Anyway, the experience was truly inspiring as I participated in a real assessment centre for the first time and I had the opportunity to connect with several incredible individuals. 
-Looking forward to the next opportunity!
+Anyway, the experience was truly inspiring as I participated in a real assessment centre for the first time and 
+I had the opportunity to connect with several incredible individuals from various universities and educational backgrounds.
+
+<details close markdown="1">
+<summary> **Complaints**
+</summary>
+The assessment process is quite frustrating and annoying; 
+The HR team often tried to be pleasant and polite, 
+but they rarely communicated the number of positions available or their specific selection criteria, 
+leaving candidates in the dark until a merciless rejection.
+I must admit that there were a few strong candidates who were not only talkative 
+but also highly skilled at effective communication when dealing with tasks. 
+It seemed like they had encountered similar situations before, which was somewhat frustrating for me, 
+as I felt like I was merely used to highlight their abilities.
+I often wonder who was the first person to employ such a seemingly meaningless method for selecting candidates.
+Honestly, I don't know if I had another chance to attend such assessment event, 
+but I don't wanna attend such event anymore.
+</details>

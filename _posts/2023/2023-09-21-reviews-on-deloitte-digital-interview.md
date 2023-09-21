@@ -57,10 +57,22 @@ The position I applied for is [Tax - Research and Development - Gi3 - 2024 Gradu
        
          By serving as this bridge between technical components, our project workflow remained seamless, resulting in a highly functional and well-integrated end product.
         </details>
+  
+  
+{::options parse_block_html="true" /}
+  
+<details close markdown="1">
+<summary> **Complaints**
+</summary>
+These are all standard behavioral questions that appear rather ineffective in my opinion, 
+but they are a necessary part of the job application process for almost every big company. 
+I don't know why they use these questions to select candidates, 
+it makes no sense to me to choose candidates who all have the potential to become actors.
+Ahhh, headache...
+</details>
 
-## Summary
 
 
-While I acknowledge that my current interview capabilities may be limited, I believe it's still worthwhile to prepare for future opportunities, even though I may have little hope of progressing to the next step, which is an in-person interview.
+
 
 [Tax]:https://jobs.deloitte.com.au/job/Perth-Tax-Research-and-Development-Gi3-2024-Graduate-Program-%28Perth%29-WA/935852810/
