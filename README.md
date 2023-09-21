@@ -2,7 +2,7 @@
 
 [![GitHub Actions](https://github.com/MoeBuTa/moebuta.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/MoeBuTa/moebuta.github.io/actions)
 
-My GitHub Pages website.
+My GitHub Pages website. You can visit it [here][moebuta].
 
 The project is powered by Jekyll & Minimal Mistakes.
 
@@ -11,3 +11,4 @@ Initially inspired and learned from [iBug][iBug].
 Development in progress.
 
 [iBug]: https://github.com/ibug
+[moebuta]: https://moebuta.github.io/
