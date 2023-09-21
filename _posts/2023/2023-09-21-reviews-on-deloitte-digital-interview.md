@@ -40,7 +40,7 @@ So this is the first time I received a digital interview invitation from Deloitt
         The outcome was a successful project delivery on time, meeting our client's expectations. I maintained my commitment to security by keeping the client informed about my decision and ensuring ongoing security updates.
    
         Through this experience, I learned the importance of communicating with others and try to be flexible when you are facing difficulties.
-      </details>
+        </details>
 
      - Describe a time you work in a successful team, what contributions you did?
         <details close markdown="1">
@@ -55,5 +55,5 @@ So this is the first time I received a digital interview invitation from Deloitt
          As for the database, I collaborate closely with the database team to align on the implementation of database query functionalities within the backend. 
        
          By serving as this bridge between technical components, our project workflow remained seamless, resulting in a highly functional and well-integrated end product.
-      </details>
+        </details>
 
