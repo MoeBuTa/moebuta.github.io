@@ -12,7 +12,7 @@ Surprisingly, the HR team mentioned that we were chosen from a pool of over 300 
 which I found hard to believe given my initial doubts about the strength of my resume. Nonetheless, 
 I appreciated this opportunity, especially given the challenges I've been facing in my job search.
 
-## Event composition:
+## Event composition
 
 In general, the event contains four parts:
 1. a general introduction from Emerson, with a subsequent warm-up.
@@ -22,7 +22,7 @@ In general, the event contains four parts:
 
 Unfortunately, I didn't make to the final interview stage.
 
-## Reviews:
+## Reviews
 
 Although I did a few researches on the group activities and understand what I need to do to succeed in this assessment, 
 I was not able to act like what I expected to be. 
