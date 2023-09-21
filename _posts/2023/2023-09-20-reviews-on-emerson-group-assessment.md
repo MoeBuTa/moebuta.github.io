@@ -6,7 +6,6 @@ header:
   teaser: /assets/source/image/teaser/emerson-group-assessment.png
 ---
 
-{::options parse_block_html="true" /}
 
 Last Tuesday, I participated in Emerson Australia's assessment day at Swan River Room 2, Ritz-Carlton Perth. 
 It was my first interview for a graduate program, and I was one of about 20 participants. 
@@ -37,6 +36,8 @@ Potential reasons:
 
 Anyway, the experience was truly inspiring as I participated in a real assessment centre for the first time and 
 I had the opportunity to connect with several incredible individuals from various universities and educational backgrounds.
+
+{::options parse_block_html="true" /}
 
 <details close markdown="1">
 <summary> **Complaints**
