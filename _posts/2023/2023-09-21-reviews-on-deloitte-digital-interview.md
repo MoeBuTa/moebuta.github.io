@@ -15,9 +15,9 @@ So this is the first time I received a digital interview invitation from Deloitt
 
  - It contains four questions. The first one is a written question, mainly asking you the reason for applying Deloitte and what you excite about this opportunity.
    - The subsequent three questions are answered through oral presentations with camera recorded, each question has two attempts. The questions are:
-     - Tell me about yourself. What you study, when you graduate, hobbies, achievements
+     - Tell me about yourself. What you study, when you graduate, hobbies, achievements?
        <details close markdown="1">
-       <summary> my answer
+       <summary> my response
        </summary>
        My name's wenxiao and I am a recent graduate from The University of western australia with a master's degree of Software Engineering. I just graduated in July this year.
     
@@ -30,7 +30,7 @@ So this is the first time I received a digital interview invitation from Deloitt
 
      - One of the difficult challenges you encountered, what the situation is? how you deal with it?
        <details close markdown="1">
-       <summary> my answer
+       <summary> my response
        </summary>
 
        In a software development project I've done in a group, I faced a challenge. I was resposible for implementing the security components using a trusted third-party authentication library, but it was not compatabile with another crucial component in the system, which may potentially causing delays. I had to choose between sticking to the third-party library or try a more flexibl approach developing a custom solution to meet the deadline.
@@ -44,7 +44,7 @@ So this is the first time I received a digital interview invitation from Deloitt
 
      - Describe a time you work in a successful team, what contributions you did?
         <details close markdown="1">
-        <summary> my answer
+        <summary> my response
         </summary>
 
          I was part of a 7-member team working on a web project during my final year of study, with 3 members dedicated to frontend, 2 for backend, and 2 for database management.
