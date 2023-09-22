@@ -23,13 +23,14 @@ docker-compose run --rm app sh -c "python manage.py collectstatic"
  - `" "` command to run inside container
 
 docker-compose.yml
+
 ```yaml
 version: "3.9" # version of docker-compose syntax
 
 services:
   app:
     build:
-      context: . # build dockerfile in the current directory
+      context: .. # build dockerfile in the current directory
     ports:
       - "8000:8000" # port 8000 in local machine : port 8000 in docker container
     volumes:
