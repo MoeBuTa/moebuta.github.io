@@ -2,6 +2,8 @@
 title: "GitHub Action Notes"
 tags: GitHub
 categories: Tech
+header:
+  teaser: /assets/source/image/teaser/github-action.png
 ---
 
 This post is written based on [iBug's post][ibugpost]. I copied, edited, and saved part of the original notes for future reference and learning.

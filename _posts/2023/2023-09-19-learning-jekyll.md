@@ -1,10 +1,12 @@
 ---
-title: "Jekyll Notes"
+title: "Learning Jekyll"
 tags: Jekyll
 categories: Tech
+header:
+  teaser: /assets/source/image/teaser/jekyll.png
 ---
 
-A note for writing down useful commands and concepts of Jekyll during the development of this website. Might continuously update it...
+A note for writing down useful commands and concepts of Jekyll during the development of this website. Might constantly update it...
 
 ## Some useful commands
 

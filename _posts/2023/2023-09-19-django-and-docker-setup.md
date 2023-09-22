@@ -2,9 +2,11 @@
 title: "Django and Docker Setup"
 tags: Django
 categories: Tech
+header:
+  teaser: /assets/source/image/teaser/docker.png
 ---
 
-Notes for learning how to set up Django with Docker, constantly updated...
+Notes for learning how to set up Django with Docker, might constantly update it...
 
 ## Using Docker
 

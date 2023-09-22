@@ -2,6 +2,8 @@
 title: "AWS Cloud Practitioner Notes"
 tags: AWS
 categories: Tech
+header:
+  teaser: /assets/source/image/teaser/aws-cloud-practitioner.png
 ---
 
 These notes were created during my preparation for the [AWS Cloud Practitioner Exam][aws]. 
