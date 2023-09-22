@@ -6,8 +6,8 @@ main:
     url: /about
   - title: "Blog"
     url: /blog/
-  - title: "Anime"
-    url: /dip
+#  - title: "Anime"
+#    url: /dip
 #  - title: "Game"
 #    url: /dip
 #  - title: "Fingerstyle"
