@@ -6,9 +6,7 @@ header:
   teaser: /assets/source/image/teaser/deloitte-digital-interview.png
 ---
 
-Yesterday I just completed a digital interview from Deloitte. Previously I just directly being rejected by them right after I applied from the position.
-So this is the first time I received a digital interview invitation from Deloitte, which is a good experience for me to learn and practice my interview skills.
-The position I applied for is [Tax - Research and Development - Gi3 - 2024 Graduate Program (Perth)][Tax].
+Yesterday I just completed a digital interview from Deloitte. Previously I just directly being rejected by them right after I applied from the position. So this is the first time I received a digital interview invitation from Deloitte, which is a good experience for me to learn and practice my interview skills. The position I applied for is [Tax - Research and Development - Gi3 - 2024 Graduate Program (Perth)][Tax].
 
 ## About the digital interview
 
@@ -64,11 +62,7 @@ The position I applied for is [Tax - Research and Development - Gi3 - 2024 Gradu
 <details close markdown="1">
 <summary> **Complaints**
 </summary>
-These are all standard behavioral questions that appear rather ineffective in my opinion, 
-but they are a necessary part of the job application process for almost every big company. 
-I don't know why they use these questions to select candidates, 
-it makes no sense to me to choose candidates who all have the potential to become actors.
-Ahhh, headache...
+These are all standard behavioral questions that appear rather ineffective in my opinion, but they are a necessary part of the job application process for almost every big company. I don't know why they use these questions to select candidates, it makes no sense to me to choose candidates who all have the potential to become actors. Ahhh, headache...
 </details>
 
 
