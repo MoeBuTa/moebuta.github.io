@@ -265,7 +265,7 @@ pagination:
 #  debug: true
   per_page: 5
 #  collection: 'posts'
-  permalink: "/blog/:num/"
+  permalink: "/:num/"
   title: ":title - Page :num of :max"
   limit: 0
   sort_field: "date"
@@ -409,7 +409,7 @@ defaults:
       show_date: true
       related: true
       toc: true
-#      toc_label: "On this page"
+      toc_label: "content"
 
 
 

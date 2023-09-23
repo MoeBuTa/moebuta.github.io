@@ -1,6 +1,7 @@
 ---
 title: "About MoeBuTa"
 toc: true
+permalink: /about
 ---
 I'm MoeBuTa (nickname) / Wenxiao (legal name) / Wes (English name).
 

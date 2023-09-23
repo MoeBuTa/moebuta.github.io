@@ -1,13 +1,14 @@
 ---
 title: "Blog"
-layout: index
+layout: home
+permalink: '/blog/'
 description: "All of MoeBuTa's articles"
 tagline: "All of MoeBuTa's articles"
 author_profile: true
 pagination:
     enabled: true
     collection:
-        - _posts
+        - posts
 header:
 #    overlay_image: "/assets/source/image/header/lake.png"
 #    overlay_filter: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
@@ -19,3 +20,4 @@ header:
         - label: "<i class='fas fa-fw fa-calendar-alt'></i> Years"
           url: "/blog/years/"
 ---
+

@@ -264,6 +264,12 @@ ros2 run_my_cpp_pkg
 ros2 run my_cpp_pkg cpp_node
 ```
 
+ROS2 - Language Libraries:
+
+ - rcl: lowest ROS2 library, pure C library, basic functionalities, data distribution studies
+   - rclcpp: cpp class library, write CPP code
+   - rclpy: python class library, 
+
 
  - ros
  - hand gesture
