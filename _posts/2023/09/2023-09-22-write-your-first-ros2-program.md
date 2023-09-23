@@ -74,6 +74,12 @@ colcon build --packages-select my_py_pkg
    - can be written in Python, C++,...
  - All nodes' names are unique.
 
+![architecture](/assets/source/image/blog/ros2-architecture.png)
+
+<div style="text-align: center; font-style: italic;">
+  ROS2 Architecture
+</div>
+
 ### Python node
 
 **Step 1** demo code in `ros2_ws/src/my_py_pkg/my_py_pkg/my_first_node.py`
@@ -269,6 +275,9 @@ ROS2 - Language Libraries:
  - rcl: lowest ROS2 library, pure C library, basic functionalities, data distribution studies
    - rclcpp: cpp class library, write CPP code
    - rclpy: python class library, 
+   - rclnodejs
+   - rcljava
+   - ...
 
 
  - ros
