@@ -59,19 +59,28 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
-lunr:
-  search_within_pages    : # true, false (default)
+#lunr:
+#  search_within_pages    : # true, false (default)
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  application_id         : "XNJYXEVX0O" # YOUR_APPLICATION_ID
+  index_name             : "MoeBuTa_website" # YOUR_INDEX_NAME
+  search_only_api_key    : "c5f3e153320e1ac940fed49ca90df015" # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
+  settings:
+    searchableAttributes: [ "title", "hierarchy.lvl0", "hierarchy.lvl1", "hierarchy.lvl2", "hierarchy.lvl3", "hierarchy.lvl4", "hierarchy.lvl5", "unordered(content)", "collection,categories,tags" ]
+    customRanking: [ "desc(date)", "desc(weight.heading)", "asc(weight.position)" ]
+    attributesToHighlight: [ "title", "hierarchy.lvl0", "hierarchy.lvl1", "hierarchy.lvl2", "hierarchy.lvl3", "hierarchy.lvl4", "hierarchy.lvl5", "content", "html", "collection", "categories", "tags" ]
+    attributesForFaceting: [ "searchable(tags)", "searchable(type)", "searchable(title)" ]
+  files_to_exclude:
+    - _pages/404.md
+    - _pages/dip.md
+    - README.md
+#google:
+#  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+#  instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -246,12 +255,17 @@ permalink: /blog/:year/:month/:title/
 date_format: "%b %-d, %Y" # "%b %-d, %Y at %-H:%M"
 
 
-paginate: null
-#paginate_path: "/blog/:num/"
+#paginate: 5
+#paginate_path: "_pages/blog/page:num"
+
+#category_dir: "categories"
+#category_layout: "index.html"
 pagination:
   enabled: true
-  per_page: 8
-  permalink: "/:num/"
+#  debug: true
+  per_page: 5
+#  collection: 'posts'
+  permalink: "/blog/:num/"
   title: ":title - Page :num of :max"
   limit: 0
   sort_field: "date"
@@ -259,8 +273,6 @@ pagination:
   trail:
     before: 2
     after: 2
-
-
 
 
 autopages:
@@ -293,6 +305,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate-v2
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -375,7 +388,7 @@ defaults:
         show_overlay_excerpt: false
       sidebar:
         nav: home
-      pagination: true
+      enable_paginate: true
 
 
   - scope:
@@ -383,7 +396,7 @@ defaults:
       type: pages
     values:
       #classes: wide
-      pagination: false
+      enable_paginate: false
       header:
         overlay_image: "/assets/source/image/header/lake.png"
 
