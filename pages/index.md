@@ -8,7 +8,7 @@ header:
   overlay_image: "assets/source/image/home/lake.png"
   actions:
     - label: "<i class='fas fa-user-circle'></i> About"
-      url: "/about/"
+      url: "/about"
     - label: "<i class='fas fa-book'></i> Blog"
 #      url: "/dip"
       url: "/blog/"
