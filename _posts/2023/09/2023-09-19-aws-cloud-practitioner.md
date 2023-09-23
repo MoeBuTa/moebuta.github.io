@@ -1,5 +1,5 @@
 ---
-title: "AWS Cloud Practitioner Notes"
+title: "AWS Cloud Practitioner"
 tags: AWS
 categories: Tech
 header:

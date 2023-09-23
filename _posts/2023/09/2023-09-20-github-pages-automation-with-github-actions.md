@@ -1,12 +1,12 @@
 ---
-title: "GitHub Action Notes"
+title: "GitHub Pages Automation with Github Actions"
 tags: GitHub
 categories: Tech
 header:
   teaser: /assets/source/image/teaser/github-action.png
 ---
 
-This post is written based on [iBug's post][ibugpost]. I copied, edited, and saved part of the original notes for future reference and learning.
+This post is based on [iBug's post][ibugpost], where I've excerpted parts of the original notes for my future reference and learning.
 
 [//]: # (<div class="notice--primary" markdown="1">)
 

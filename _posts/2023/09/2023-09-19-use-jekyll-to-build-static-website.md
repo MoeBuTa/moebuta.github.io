@@ -1,5 +1,5 @@
 ---
-title: "Learning Jekyll"
+title: "Use Jekyll to Build Static Website"
 tags: Jekyll
 categories: Tech
 header:

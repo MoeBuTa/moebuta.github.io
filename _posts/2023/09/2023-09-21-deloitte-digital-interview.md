@@ -1,5 +1,5 @@
 ---
-title: "Reviews on Deloitte's Digital Interview"
+title: "Deloitte's Digital Interview"
 tags: Deloitte
 categories: Interview
 header:
