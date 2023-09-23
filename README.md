@@ -1,4 +1,4 @@
-# moebuta.github.io
+# MoeBuTa's Website
 
 [![GitHub Actions](https://github.com/MoeBuTa/moebuta.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/MoeBuTa/moebuta.github.io/actions)
 
