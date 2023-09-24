@@ -21,7 +21,7 @@ Having an idea, working hard to realise it, and enjoying the feeling of happines
 
 🛤️ [SlimeMould](https://github.com/MoeBuTa/SlimeMould) - A Python-based model simulating the slime mould's behaviour using the Nanjing subway system's geometric data.
 
-♟️ [ChineseChessTutorial](https://github.com/MoeBuTa/ChineseChessTutorial) - CITS3004 Agile Web Development project using Flask, Jinja, and Sqlite.
+♟️ [ChineseChessTutorial](https://github.com/MoeBuTa/ChineseChessTutorial) - CITS3403 Agile Web Development project using Flask, Jinja, and Sqlite.
 
 🔢 [ComputationalAnalysis](https://github.com/MoeBuTa/ComputationalAnalysis) - CITS4009 Computational Analysis data visualisation project written in R.
 
