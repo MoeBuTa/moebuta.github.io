@@ -1,5 +1,5 @@
 ---
-title: "Write Your First ROS2 Program"
+title: "ROS2-1: Write Your First ROS2 Program"
 tags: ROS PhD Python C++
 categories: Tech
 header:
@@ -190,7 +190,10 @@ public:
   }
 
 private:
-  void timeCallback() { RCLCPP_INFO(this->get_logger(), "Hello %d", counter_); }
+  void timeCallback() {
+    counter_++;
+    RCLCPP_INFO(this->get_logger(), "Hello %d", counter_);
+  }
 
   rclcpp::TimerBase::SharedPtr timer_;
   int counter_;
@@ -264,7 +267,7 @@ alternatively,
 ```bash
 source ~/.bashrc
 
-ros2 run_my_cpp_pkg
+ros2 run my_cpp_pkg
 # then press tab twice to find out all packages
 
 ros2 run my_cpp_pkg cpp_node
@@ -291,10 +294,10 @@ ROS2 - Language Libraries:
 
 [Introduction](http://wiki.ros.org/ROS/Introduction)
 
-[ROS 2 Documentation: Humble](https://docs.ros.org/en/humble/Releases.html)
+[ROS 2 Documentation: Humble](https://docs.ros.org/en/humble/index.html)
 
 [Udemy Tutorial](https://www.udemy.com/course/ros2-for-beginners)
 
 [Human-machine Teaming](https://research-repository.uwa.edu.au/en/publications/dynamic-two-way-communication-using-gestures-for-human-machine-te)
 
-[Webots](https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Webots/Installation-Windows.html)
+
