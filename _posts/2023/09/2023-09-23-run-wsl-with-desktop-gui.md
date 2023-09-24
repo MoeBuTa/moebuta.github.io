@@ -3,7 +3,7 @@ title: "Run WSL with Desktop GUI"
 tags: WSL
 categories: Tech
 header:
-  teaser: /assets/source/image/teaser/robot.png
+  teaser: /assets/source/image/teaser/wsl.png
 ---
 
 I first started using WSL (Windows Subsystem for Linux) in 2021 when I had to complete two C/C++ based units that required a Linux environment. The recommended options for students were either VMBox or VMware Workstation, but I found these to be cumbersome. Launching the hypervisor and starting an instance felt like a tedious process, and constantly switching between two systems was disorienting.
