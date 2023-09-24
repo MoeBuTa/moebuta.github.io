@@ -1,0 +1,148 @@
+---
+title: "ROS2-3: Communications"
+tags: ROS PhD Python C++
+categories: Tech
+header:
+  teaser: /assets/source/image/teaser/robot.png
+---
+
+## ROS2 - Topics
+
+ - A topic is a named bus over which nodes exchange messages
+   - unidirectional data stream (publisher/subscriber)
+   - anonymous
+   - a topic has a message type
+   - can be written in Python, C++, ... directly inside ROS nodes
+   - a node can have many publishers/subscribers for many different topics
+
+
+## Python Publisher
+
+```bash
+cd ros2_ws/src/my_py_pkg/my_py_pkg
+
+touch robot_news_station.py
+
+
+chmod +x robot_news_station.py
+```
+
+In `robot_news_station.py`
+```python
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+
+from example_interfaces.msg import String
+
+
+class RobotNewsStationNode(Node):
+    def __init__(self):
+        super().__init__("robot_news_station")
+        self.publisher_ = self.create_publisher(String, "robot_news", 10)
+        self.timer_ = self.create_timer(
+            timer_period_sec=0.5, callback=self.publish_news)
+        self.get_logger().info("Robot News Station has been started")
+
+    def publish_news(self):
+        msg = String()
+        msg.data = "Hello"
+        self.publisher_.publish(msg)
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = RobotNewsStationNode()
+    rclpy.spin(node)
+    rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()
+```
+
+In `setup.py`
+
+```python
+entry_points={
+     'console_scripts': [
+         "py_node = my_py_pkg.my_first_node:main", # execute table
+         "robot_news_station = my_py_pkg.robot_news_station:main"
+     ],
+ },
+```
+In `package.xml`
+
+```xml
+  <depend>rclpy</depend>
+  <depend>example_interfaces</depend>
+```
+
+Then
+
+```bash
+# terminal 1
+colcon build --package-select my_py_pkg --symlink-install
+source ~/.bashrc
+ros2 run my_py_pkg robot_news_station
+
+# terminal 2
+ros2 topic list
+ros2 topic echo /robot_news
+```
+
+## Python Subscriber
+
+
+In `smartphone.py`
+```python
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+from example_interfaces.msg import String
+
+
+class SmartphoneNode(Node):
+    def __init__(self):
+        super().__init__("smartphone")
+        self.publisher_ = self.create_subscription(
+            msg_type=String, topic="robot_news", callback=self.callback_robot_news, qos_profile=10)
+        self.get_logger().info("Smartphone has been started")
+
+    def callback_robot_news(self, msg):
+        self.get_logger().info(msg.data)
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = SmartphoneNode()
+    rclpy.spin(node)
+    rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()
+```
+
+In `setup.py`
+
+```python
+entry_points={
+     'console_scripts': [
+         "py_node = my_py_pkg.my_first_node:main",  # execute table
+         "robot_news_station = my_py_pkg.robot_news_station:main",
+         "smartphone = my_py_pkg.smartphone:main",
+     ],
+ },
+```
+
+Then
+```bash
+# terminal 1
+colcon build --package-select my_py_pkg --symlink-install
+source ~/.bashrc
+ros2 run my_py_pkg robot_news_station
+
+# terminal 2
+ros2 run my_py_pkg smartphone
+```
