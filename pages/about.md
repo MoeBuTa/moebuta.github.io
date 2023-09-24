@@ -41,8 +41,9 @@ Having an idea, working hard to realise it, and enjoying the feeling of happines
 <details open markdown="1">
 <summary> **Currently using/learning**
 </summary>
- - **Programming**: Python, C
+ - **Programming**: Python, C/C++
  - **Version Control**: Git
+ - **Technology**: ROS2
  - **Web Development**: HTML/CSS/JS, Flask, Jekyll, React.js, Django
  - **Automation**: Shell scripts, Docker, GitHub Action, Systemd services
 </details>
