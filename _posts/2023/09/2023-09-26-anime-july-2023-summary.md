@@ -3,7 +3,7 @@ title: "Anime July 2023 Summary"
 tags: Mushoku_Tensei MyGO Jujutsu_Kaisen
 categories: Anime
 header:
-  teaser: /assets/source/image/blog/mushoku.png
+  teaser: /assets/source/image/blog/anime-mushoku.png
 ---
 
 This is a summary of the anime shows I watched that was released in July 2023. [樱花动漫](https://www.yhdmz.org/)
