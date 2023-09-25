@@ -1,7 +1,8 @@
 @import "mixins";
 @import "fonts";
 
-@import "landing"; // Special layout for landing page
+@import "landing";
+// Special layout for landing page
 @import "masthead";
 @import "page-content";
 @import "archive";
@@ -98,9 +99,15 @@ ul, ol {
 html {
   box-sizing: border-box;
   font-size: 14px;
-  @include breakpoint($medium) { font-size: 16px; }
-  @include breakpoint($large) { font-size: 18px; }
-  @include breakpoint($x-large) { font-size: 20px; }
+  @include breakpoint($medium) {
+    font-size: 16px;
+  }
+  @include breakpoint($large) {
+    font-size: 18px;
+  }
+  @include breakpoint($x-large) {
+    font-size: 20px;
+  }
 }
 
 // Header and footer width
@@ -111,7 +118,9 @@ div.page__footer footer {
 
 #main {
   padding-top: 1em;
-  @include breakpoint($x-large) { max-width: 1440px; }
+  @include breakpoint($x-large) {
+    max-width: 1440px;
+  }
 }
 
 div.page__hero--overlay {
@@ -121,7 +130,7 @@ div.page__hero--overlay {
   margin-bottom: 0;
 
   .page__title, .page__meta, .comment__date, .page__lead, .btn {
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
   }
 
   .page__title:last-child {
@@ -278,6 +287,73 @@ a.site-logo > img, div.author__avatar:hover > img {
 @import "loading-animation";
 
 @keyframes spin-periodically {
-  80% { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  80% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
+
+
+.side-cate {
+  margin-bottom: 20px;
+
+  li {
+    padding: 4px 2px;
+
+    a {
+
+      &:hover {
+        background-color: rgba(0, 146, 202, 0.5);
+
+        .badge {
+          background-color: #b6b6d3;
+          transform: rotate(360deg);
+        }
+      }
+    }
+
+    .badge {
+      float: right;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      margin-bottom: 3px;
+      font-size: 12px;
+      color: #fff;
+      background-color: #888888;
+      border-radius: 50%;
+      transition: 0.5s ease-in-out;
+    }
+
+  }
+
+
+}
+
+.side-tag {
+
+  .tags-cloud {
+    font-weight: normal;
+    align-content: center;
+
+    a {
+      padding: 0 3px;
+      border-radius: 5px;
+      //background-color: #dcdcba;
+
+      &:hover {
+        background-color: #FF6600;
+      }
+    }
+  }
+
+
+}
+
+
+
+

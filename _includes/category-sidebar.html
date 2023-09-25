@@ -1,0 +1,95 @@
+<div class="side-cate ">
+    <nav class="toc">
+        <header><h4 class="nav__title" style="background: #6b4003"><i
+                class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i>Categories
+        </h4>
+        </header>
+
+        <ul class="toc__menu" cate>
+            {% for category in site.categories %}
+            <li>
+                <a href="{{ prepend: path_type | prepend: site.category_archive.path | relative_url }}{{ category | first }}"
+                   class="categories-list-item">
+                            <span class="name">
+                                {{ category | first }}
+                            </span>
+                    <span class="badge">{{ category | last | size }}</span>
+                </a>
+
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
+
+<div class="side-tag">
+    <nav class="toc">
+        <header><h4 class="nav__title" style="background: #2a4336">
+            <i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i>Tags</h4>
+        </header>
+        <div class="tags-cloud">
+            {% assign first = site.tags.first %}
+            {% assign max = first[1].size %}
+            {% assign min = max %}
+            {% for tag in site.tags offset:1 %}
+            {% if tag[1].size > max %}
+            {% assign max = tag[1].size %}
+            {% elsif tag[1].size < min %}
+            {% assign min = tag[1].size %}
+            {% endif %}
+            {% endfor %}
+
+            {% if max == min %}
+            {% assign diff = 1 %}
+            {% else %}
+            {% assign diff = max | minus: min %}
+            {% endif %}
+
+            {% for tag in site.tags %}
+            {% assign temp = tag[1].size | minus: min | times: 36 | divided_by: diff %}
+            {% assign base = temp | divided_by: 4 %}
+            {% assign remain = temp | modulo: 4 %}
+            {% if remain == 0 %}
+            {% assign size = base | plus: 9 %}
+            {% elsif remain == 1 or remain == 2 %}
+            {% assign size = base | plus: 9 | append: '.5' %}
+            {% else %}
+            {% assign size = base | plus: 10 %}
+            {% endif %}
+            {% if remain == 0 or remain == 1 %}
+            {% assign color = 0 | plus: base %}
+            {% else %}
+            {% assign color = 1 | plus: base %}
+            {% endif %}
+            {% case color %}
+            {% when 0 %}
+            {% assign selectedColor = "#FFD700" %}  <!-- Lemon Yellow -->
+            {% when 1 %}
+            {% assign selectedColor = "#FFA500" %}  <!-- Tangerine Orange -->
+            {% when 2 %}
+            {% assign selectedColor = "#FF0000" %}  <!-- Cherry Red -->
+            {% when 3 %}
+            {% assign selectedColor = "#FF69B4" %}  <!-- Hot Pink -->
+            {% when 4 %}
+            {% assign selectedColor = "#00FF00" %}  <!-- Lime Green -->
+            {% when 5 %}
+            {% assign selectedColor = "#00FFFF" %}  <!-- Aqua Blue -->
+            {% when 6 %}
+            {% assign selectedColor = "#8000FF" %}  <!-- Electric Purple -->
+            {% when 7 %}
+            {% assign selectedColor = "#FFFF00" %}  <!-- Sunny Yellow -->
+            {% when 8 %}
+            {% assign selectedColor = "#DC143C" %}  <!-- Crimson Red -->
+            {% when 9 %}
+            {% assign selectedColor = "#40E0D0" %}  <!-- Turquoise -->
+            {% else %}
+            {% assign selectedColor = "#000000" %}  <!-- Default color (Black) -->
+            {% endcase %}
+            <a href="{{ prepend: path_type | prepend: site.tag_archive.path | relative_url }}{{ tag | first }}"
+               style="font-size: {{ size }}pt; color: {{selectedColor}};">{{ tag[0] }}</a>
+            {% endfor %}
+        </div>
+    </nav>
+</div>
+
+

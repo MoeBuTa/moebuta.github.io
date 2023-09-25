@@ -1,7 +1,7 @@
 ---
 title: "MoeBuTa"
 layout: splash
-permalink: /anime
+permalink: /anime/
 classes: ["landing"]
 header:
   overlay_image: "assets/source/anime/image/elaina-window.png"
