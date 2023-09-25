@@ -1,6 +1,6 @@
 ---
 title: "ROS2-6: Parameters"
-tags: ROS PhD Python C++
+tags: ROS PhD Python CPP
 categories: Tech
 header:
   teaser: /assets/source/image/teaser/robot.png
