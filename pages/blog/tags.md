@@ -1,6 +1,8 @@
 ---
-title: "Posts by Tag"
+title: "Tag"
 permalink: /blog/tags/
+description: "Posts by tags"
+tagline: "Posts by tags"
 layout: tags
 author_profile: true
 header:

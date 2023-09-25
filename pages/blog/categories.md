@@ -3,7 +3,7 @@ title: "Blog"
 layout: categories
 permalink: /blog/categories/
 description: "Posts by categories"
-tagline: "Group by categories"
+tagline: "Posts by categories"
 author_profile: true
 header:
     actions:
