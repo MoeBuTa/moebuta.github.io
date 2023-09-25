@@ -8,10 +8,10 @@
         <ul class="toc__menu" cate>
             {% for category in site.categories %}
             <li>
-                <a href="{{ prepend: path_type | prepend: site.category_archive.path | relative_url }}{{ category | first }}"
+                <a href="{{ prepend: path_type | prepend: site.category_archive.path | relative_url }}{{ category | first | downcase }}"
                    class="categories-list-item">
                             <span class="name">
-                                {{ category | first }}
+                                {{ category | first | lower }}
                             </span>
                     <span class="badge">{{ category | last | size }}</span>
                 </a>
@@ -85,7 +85,7 @@
             {% else %}
             {% assign selectedColor = "#000000" %}  <!-- Default color (Black) -->
             {% endcase %}
-            <a href="{{ prepend: path_type | prepend: site.tag_archive.path | relative_url }}{{ tag | first }}"
+            <a href="{{ prepend: path_type | prepend: site.tag_archive.path | relative_url }}{{ tag | first | downcase }}"
                style="font-size: {{ size }}pt; color: {{selectedColor}};">{{ tag[0] }}</a>
             {% endfor %}
         </div>
