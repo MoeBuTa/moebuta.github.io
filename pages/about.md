@@ -65,12 +65,6 @@ Having an idea, working hard to realise it, and enjoying the feeling of happines
  - **Hardware**: Microcontroller Programming, Raspberry Pi
 </details>
 
-### Preferences
-
-- **Operating System**: Windows, Ubuntu (WSL 2), Debian (Raspberry Pi)
-- **Version control**: Git
-- **IDE**: VS Code, PyCharm, IDEA, RStudio
-
 ## Languages
 
 - **Chinese**: Native to Simplified (written) and Mandarin (spoken)

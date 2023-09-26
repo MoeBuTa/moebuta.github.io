@@ -9,6 +9,8 @@ author_profile: true
 <h3 class="archive__subtitle">{{ page.title }}</h3>
 {% endcomment %}
 
+<aside  class="sidebar__right sticky">{% include category-sidebar.html %}</aside>
+
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
