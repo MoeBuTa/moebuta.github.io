@@ -3,17 +3,17 @@ title: "Anime July 2023 Summary"
 tags: Mushoku_Tensei MyGO Jujutsu_Kaisen
 categories: Anime
 header:
-  teaser: /assets/source/image/blog/anime-mushoku.png
+  teaser: /assets/source/image/teaser/mushoku.png
 ---
 
-This is a summary of the anime shows I watched that was released in July 2023. [樱花动漫](https://www.yhdmz.org/)
+This is a summary of the anime shows I watched that was released in July 2023. 
 
 {::options parse_block_html="true" /}
 
 
 [//]: # ( 775 * 510)
 ## Mushoku Tensen
-![mushoku](/assets/source/image/blog/anime-mushoku.png)
+![mushoku](/assets/source/anime/image/anime-mushoku.png)
 <div style="text-align: center; font-style: italic;">
 Jobless Reincarnation <br> 
 無職転生 <br> 
@@ -25,7 +25,7 @@ Jobless Reincarnation <br>
 
 
 ## BanG Dream! It's MyGO!!!!!
-![yumemiru](/assets/source/image/blog/anime-mygo.png)
+![yumemiru](/assets/source/anime/image/anime-mygo.png)
 <div style="text-align: center; font-style: italic;">
 [BanG Dream! It's MyGO!!!!! - bilibili](https://www.bilibili.com/video/BV1Zu4y1B7DU/)  <br>
 [BanG Dream! It's MyGO!!!!!](https://www.yhdmz.org/showp/23189.html) <br>
@@ -33,7 +33,7 @@ Jobless Reincarnation <br>
 </div>
 
 ## Jujutsu Kaisen
-![Jujutsu](/assets/source/image/blog/anime-jujutsu.png)
+![Jujutsu](/assets/source/anime/image/anime-jujutsu.png)
 <div style="text-align: center; font-style: italic;">
 Sorcery Fight <br> 
 呪術廻戦 <br> 
@@ -43,7 +43,7 @@ Sorcery Fight <br>
 
 
 ## Zom 100: Bucket List of the Dead
-![zom](/assets/source/image/blog/anime-zom.png)
+![zom](/assets/source/anime/image/anime-zom.png)
 <div style="text-align: center; font-style: italic;">
 Zom 100: Bucket List of the Dead <br> 
 ゾン100～ゾンビになるまでにしたい100のこと～ <br> 
@@ -53,7 +53,7 @@ Zom 100: Bucket List of the Dead <br>
 
 
 ## The Dreaming Boy Is a Realist
-![yumemiru](/assets/source/image/blog/anime-yumemiru.png)
+![yumemiru](/assets/source/anime/image/anime-yumemiru.png)
 <div style="text-align: center; font-style: italic;">
 The Dreaming Boy Is a Realist <br> 
 夢見る男子は現実主義者 <br> 
@@ -62,7 +62,7 @@ The Dreaming Boy Is a Realist <br>
 </div>
 
 ## My Happy Marriage
-![marriage](/assets/source/image/blog/anime-marriage.png)
+![marriage](/assets/source/anime/image/anime-marriage.png)
 <div style="text-align: center; font-style: italic;">
 My Happy Marriage <br> 
 わたしの幸せな結婚 <br> 
@@ -72,7 +72,7 @@ My Happy Marriage <br>
 
 
 ## Am I Actually the Strongest?
-![strongest](/assets/source/image/blog/anime-strongest.png)
+![strongest](/assets/source/anime/image/anime-strongest.png)
 <div style="text-align: center; font-style: italic;">
 Am I Actually the Strongest? <br> 
 実は俺、最強でした？ <br> 
