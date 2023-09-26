@@ -1,6 +1,6 @@
 ---
 title: "ROS2-5: Interfaces"
-tags: ROS PhD Python CPP
+tags: ROS
 categories: Tech
 header:
   teaser: /assets/source/image/teaser/robot.png

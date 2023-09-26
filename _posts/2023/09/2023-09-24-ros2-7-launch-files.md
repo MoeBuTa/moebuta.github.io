@@ -1,6 +1,6 @@
 ---
 title: "ROS2-7: Launch Files"
-tags: ROS PhD Python CPP
+tags: ROS Script
 categories: Tech
 header:
   teaser: /assets/source/image/teaser/robot.png
