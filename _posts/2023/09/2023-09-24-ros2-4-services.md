@@ -77,18 +77,34 @@ class AddTwoIntsClientNode(Node):
         self.call_add_two_ints_server(6, 7)
 
     def call_add_two_ints_server(self, a, b):
+        '''
+        call a request to the server
+        '''
+
+        # create a client that is waiting for a server
         client = self.create_client(AddTwoInts, "add_two_ints")
+
+        # check the service server per second until it ready
         while not client.wait_for_service(1.0):
             self.get_logger().warn("Waiting for Server Add Two Ints...")
+
+        # construct a request
         request = AddTwoInts.Request()
         request.a = a
         request.b = b
 
+        # send request to the server and asynchorously get the response result
         future = client.call_async(request=request)
+
+        # Add a callback to be executed when the receive the response from the server.
+        # use partial to pass multiple arguments (a, b) to the callback function.
         future.add_done_callback(
             partial(self.callback_call_add_two_ints, a=a, b=b))
 
     def callback_call_add_two_ints(self, future, a, b):
+        '''
+        a callback action triggered when receive the response from the server
+        '''
         try:
             response = future.result()
             self.get_logger().info(str(a) + " + " +
@@ -106,6 +122,7 @@ def main(args=None):
 
 if __name__ == "__main__":
     main()
+
 
 ```
 
