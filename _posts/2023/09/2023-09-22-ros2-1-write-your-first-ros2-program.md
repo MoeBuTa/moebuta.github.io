@@ -8,6 +8,33 @@ header:
 
 Learning Robot Operating System (ROS) for the preparation of applying for a PhD degree.
 
+ROS2 benefits:
+ - create the base layer fast
+ - provide a standard for robotics applications
+ - use on any robot
+ - allows you to avoid reinventing the wheel
+ - open source community
+ - plug and play packages
+
+
+Roadmap: 
+ - Basics
+   - topics 
+     - publisher - subscriber
+   - services
+     - server - client
+   - interfaces
+     - custom msg
+ - TF (TransForm)
+   - Visualise Robot TFs in RViz 2
+ - URDF (Unified Robot Description Format)
+   - Visualise URDF in RViz 2
+ - simulate robot with Gazebo
+ - Navi2 stack
+ - ros2 control
+ - Moveit2
+
+
 ## Installation and configuration
 
 **Step 1** check EOL to select the appropriate distribution. (Humble until 2027)
