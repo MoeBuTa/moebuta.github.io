@@ -1,6 +1,6 @@
 ---
 title: "Run WSL with Desktop GUI"
-tags: WSL
+tags: WSL Linux
 categories: Tech
 header:
   teaser: /assets/source/image/teaser/wsl.png

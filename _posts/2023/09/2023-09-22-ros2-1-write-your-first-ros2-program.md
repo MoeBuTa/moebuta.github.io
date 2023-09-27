@@ -1,6 +1,6 @@
 ---
 title: "ROS2-1: Write Your First ROS2 Program"
-tags: ROS PhD Python CPP
+tags: ROS Python CPP Linux
 categories: Tech
 header:
   teaser: /assets/source/image/teaser/robot.png
