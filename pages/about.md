@@ -14,10 +14,6 @@ Python, C, and Java are my primary programming languages for coursework and proj
 
 Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
-- 🔗 My website: https://moebuta.github.io/
-- 📫 You can reach me at moebutamail@gmail.com
-- 🖇️ Connect with me on LinkedIn: https://www.linkedin.com/in/wenxiao-zhang-a0801b206/
-
 ## Projects
 
 🔐 [MTDSimTime](https://github.com/MoeBuTa/MTDSimTime) - A research project on the simulation and evaluation of multiple moving target defence in the time domain.
