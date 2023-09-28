@@ -29,3 +29,5 @@ _asset_bundler_cache
 _site
 
 _algolia_api_key
+
+.git-metadata
