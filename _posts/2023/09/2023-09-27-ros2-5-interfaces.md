@@ -150,7 +150,7 @@ In `setup.py`
 ```python
 entry_points={
     'console_scripts': [
-        "py_node = my_py_pkg.my_first_node:main",  # execute table
+        "py_node = my_py_pkg.my_first_node:main",  # executable
         "robot_news_station = my_py_pkg.robot_news_station:main",
         "smartphone = my_py_pkg.smartphone:main",
         "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
@@ -172,4 +172,30 @@ source ~/.bashrc
 ros2 node list
 ros2 topic list
 ros2 topic echo /hardware_status
+```
+
+
+useful commands for debug:
+```bash
+ros interface package list
+ros2 interface package sensor_msgs
+
+# find node name
+ros2 node list 
+
+# find interface name
+ros2 node info /hardware_status_publisher
+
+# find msg
+ros2 interface show my_robot_interfaces/msg/HardwareStatus
+
+
+ros2 topic list
+ros2 topic info /hardware_status
+ros2 interface show my_robot_interfaces/msg/HardwareStatus
+
+
+ros2 service list
+ros2 service type /add_two_ints
+ros2 interface show example_interfaces/srv/AddTwoInts
 ```
