@@ -5,7 +5,7 @@ categories: Literature
 ---
 
 
- - _Automated Wheat Disease Detection using a ROS-based Autonomous Guided UAV._
+## Automated Wheat Disease Detection using a ROS-based Autonomous Guided UAV
 
    - image-based deep learning approach
      - **object detection model**: YOLO V4, EfficientDet, MobileNet V3, VGG 16, Inception, ResNet 50, and EfficientNet-B0.
@@ -26,7 +26,7 @@ categories: Literature
    - **Summary**: ml for image classification, slam for exploration, A* algorithm for determining move trajectory.
 
 
- - _Real-time ROS Implementation of Conventional Feature-based and Deep-learning-based Monocular Visual Odometry for UAV._
+## Real-time ROS Implementation of Conventional Feature-based and Deep-learning-based Monocular Visual Odometry for UAV
 
    - localization is one of the most important tasks for UAVs
      - conventional feature-based methods:**ORB-SLAM3**
