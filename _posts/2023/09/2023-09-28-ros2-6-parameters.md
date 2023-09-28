@@ -1,6 +1,6 @@
 ---
 title: "ROS2-6: Parameters"
-tags: ROS Python
+tags: ROS Python Linux
 categories: Tech
 header:
   teaser: /assets/source/image/teaser/robot.png
