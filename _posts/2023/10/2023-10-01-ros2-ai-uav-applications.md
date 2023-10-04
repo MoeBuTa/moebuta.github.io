@@ -94,6 +94,39 @@ summarising UAV-related knowledge and AI-based UAV applications to get ideas for
 
 ### Overview
 
+
+ - keywords:
+   - search and rescue
+   - path planning
+   - combine optimisation algorithm with reinforcement learning
+   - outdoor
+   - adaptive to unknown environment
+
+ - Categorise by application:
+   - Outdoor
+     - surveillance, good delivery, target tracking, and crowd monitoring,
+   - Indoor
+     - indoor mapping, factory automation, and indoor surveillance
+   - wireless networking
+   - search and rescue
+
+- Categorise by parameter:
+  - inertia-based
+    - gyroscopes, accelerometers, and altimeters to guide the onboard flight controller
+  - vision
+    - cameras
+  - signal-based
+    - GPS modules and a remote radio head (RRH) in the case of cellular connectivity
+
+ - taxonomy of AI approaches for UAV navigation
+
+![uav-navi-ai](/assets/source/image/blog/uav-navi-ai.png)
+
+
+ - reinforcement learning (RL)
+   - 
+
+
 ### Visual Odometry
 
 **Real-time ROS Implementation of Conventional Feature-based and Deep-learning-based Monocular Visual Odometry for UAV**

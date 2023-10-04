@@ -1,5 +1,5 @@
 ---
-title: "ROS2 Brainstorm"
+title: "UAV Topic Brainstorm"
 tags: ROS
 categories: Literature
 ---
@@ -106,9 +106,3 @@ Randomly writing things down to brainstorm the research topic.
 
 13. **AI-Driven Optimization for UxV Efficiency:**
     - Optimize the energy efficiency, resource allocation, and task scheduling of UxVs using AI-driven algorithms. Conduct experiments to assess the impact on performance and resource utilization.
-
-
-Potential Techniques:
- - Pytorch
- - OpenCV
- - ROS
