@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign random_image = site.data.image_paths.images | sample %}
+{% capture overlay_img_path %}{{ random_image | relative_url }}{% endcapture %}
+
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}

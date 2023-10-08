@@ -5,7 +5,7 @@ layout: splash
 classes: ["landing"]
 permalink: /
 header:
-  overlay_image: "assets/source/image/home/lake.png"
+#  overlay_image: "assets/source/image/home/lake.png"
   actions:
     - label: "<i class='fas fa-user-circle'></i> About"
       url: "/about"

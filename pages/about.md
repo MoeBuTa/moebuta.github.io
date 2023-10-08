@@ -1,8 +1,11 @@
 ---
 title: "About MoeBuTa"
+layout: about
 toc: true
 permalink: /about
 ---
+
+
 
 ## Hi there 👋
 

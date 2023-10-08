@@ -384,21 +384,21 @@ defaults:
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
       header:
-        overlay_image: "/assets/source/image/header/lake.png"
+        overlay_image: "/assets/source/image/home/lake.png"
         show_overlay_excerpt: false
       sidebar:
         nav: home
       enable_paginate: true
 
 
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      #classes: wide
-      enable_paginate: false
-      header:
-        overlay_image: "/assets/source/image/header/lake.png"
+#  - scope:
+#      path: "_pages"
+#      type: pages
+#    values:
+#      #classes: wide
+#      enable_paginate: false
+#      header:
+#        overlay_image: "/assets/source/image/header/lake.png"
 
 #
   - scope:
@@ -410,6 +410,8 @@ defaults:
       related: true
       toc: true
       toc_label: "Contents"
+#      header:
+#        overlay_image: "/assets/source/image/header/lake.png"
 
 
 
