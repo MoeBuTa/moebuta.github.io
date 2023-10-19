@@ -384,7 +384,7 @@ defaults:
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
       header:
-        overlay_image: "/assets/source/image/home/lake.png"
+        overlay_image: "/assets/source/image/home/aurora.png"
         show_overlay_excerpt: false
       sidebar:
         nav: home

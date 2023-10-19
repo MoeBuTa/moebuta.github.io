@@ -76,11 +76,14 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 - **English**: Proficient as a second language, preferred language for work and leisure
 - **Japanese**: Can follow basic conversations, thanks to Anime <i class='fa-brands fa-bilibili'></i>
 
-## Entertainments
+[//]: # (## Entertainments)
 
-- [Anime](/dip)
-- [Game](/dip)
-- [Fingerstyle](/dip)
+[//]: # ()
+[//]: # (- [Anime]&#40;/dip&#41;)
+
+[//]: # (- [Game]&#40;/dip&#41;)
+
+[//]: # (- [Fingerstyle]&#40;/dip&#41;)
 
 
   [UWA]: https://www.uwa.edu.au/
