@@ -354,6 +354,19 @@ a.site-logo > img, div.author__avatar:hover > img {
 
 }
 
+.archive__item-teaser {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.teaser-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 
 
 

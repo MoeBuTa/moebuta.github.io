@@ -1,8 +1,12 @@
+{% assign teaser = site.data.teaser_image_paths.teaser_images | sample %}
+
+{% comment %}
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+  {% assign teaser = site.data.teaser_image_paths.teaser_images | sample %}
 {% endif %}
+{% endcomment %}
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -14,7 +18,7 @@
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if teaser %}
       <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
+        <img src="{{ teaser | relative_url }}" alt="" class="teaser-image">
       </div>
     {% endif %}
     <div class="archive__item-text">

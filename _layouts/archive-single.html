@@ -2,6 +2,8 @@
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
+
+
 {% endif %}
 
 {% if post.id %}
@@ -11,6 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
+
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if teaser %}
       <div class="archive__item-teaser">
