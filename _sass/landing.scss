@@ -10,7 +10,12 @@ body.landing {
   //}
 
   #main {
-    padding-top: 2em;
+    //padding-top: 2em;
+    display: none;
+  }
+
+  .page__footer {
+    margin-top: 0;
   }
 
   div.masthead {
