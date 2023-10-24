@@ -6,6 +6,12 @@ header:
   teaser: /assets/source/image/teaser/emerson-group-assessment.png
 ---
 
+<div class="notice--primary" markdown="1">
+#### <i class="fas fa-fw fa-lightbulb"></i> Update 2023/10/13
+{: .no_toc }
+
+Just received an email with an ugly refusal.
+</div>
 
 Last Tuesday, I participated in Emerson Australia's assessment day at Swan River Room 2, Ritz-Carlton Perth. It was my first interview for a graduate program, and I was one of about 20 participants. Surprisingly, the HR team mentioned that we were chosen from a pool of over 300 candidates, which I found hard to believe given my initial doubts about the strength of my resume. Nonetheless, I appreciated this opportunity, especially given the challenges I've been facing in my job search.
 
