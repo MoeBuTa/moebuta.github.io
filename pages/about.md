@@ -5,6 +5,17 @@ toc: true
 permalink: /about
 ---
 
+[//]: # (<div class="notice--primary" markdown="1">)
+
+[//]: # (#### <i class="fas fa-fw fa-lightbulb"></i> Update 2023/10/23)
+
+[//]: # ({: .no_toc })
+
+[//]: # ()
+[//]: # (I just applied)
+
+[//]: # ()
+[//]: # (</div>)
 
 
 ## Hi there 👋

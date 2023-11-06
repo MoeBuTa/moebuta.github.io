@@ -1,6 +1,6 @@
 ---
 title: "My First Post"
-categories: Article
+categories: Other
 
 ---
 

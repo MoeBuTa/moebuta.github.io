@@ -1,8 +1,21 @@
 ---
 title: "Tiktok Practice Questions"
-tags: coding
+tags: tiktok Python
 categories: Algorithm
 ---
+
+[//]: # (<div class="notice--primary" markdown="1">)
+
+[//]: # (#### <i class="fas fa-fw fa-lightbulb"></i> Update 2023/10/13)
+
+[//]: # ({: .no_toc })
+
+[//]: # ()
+[//]: # (Just received an email with an ugly refusal.)
+
+[//]: # (</div>)
+
+Another OA for graduate program at Tiktok. The practice questions already felt difficult enough to me...
 
 ## Question 1
 
