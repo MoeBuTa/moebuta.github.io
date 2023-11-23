@@ -4,16 +4,18 @@ tags: tiktok Python
 categories: Algorithm
 ---
 
-[//]: # (<div class="notice--primary" markdown="1">)
+<div class="notice--primary" markdown="1">
 
-[//]: # (#### <i class="fas fa-fw fa-lightbulb"></i> Update 2023/10/13)
+#### <i class="fas fa-fw fa-lightbulb"></i> Update 2023/11/14
 
-[//]: # ({: .no_toc })
+{: .no_toc }
 
-[//]: # ()
-[//]: # (Just received an email with an ugly refusal.)
 
-[//]: # (</div>)
+Just contacted one of the hiring staff, and they said they only want to hire locals/PR for now. WTF? Why did they 
+reach out to me and send me the OA in the first place?
+
+![tiktokend](/assets/source/image/blog/tiktok-end.png)
+</div>
 
 Another OA for graduate program at Tiktok. The practice questions already felt difficult enough to me...
 
