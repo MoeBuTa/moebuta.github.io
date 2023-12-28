@@ -4,6 +4,15 @@ tags: JourneyOne
 categories: Interview
 ---
 
+<div class="notice--primary" markdown="1">
+
+#### <i class="fas fa-fw fa-lightbulb"></i> Update 2023/12/22
+
+{: .no_toc }
+Being rejected again...
+
+</div>
+
 grad program for developers
 
  - technical and consult skills
