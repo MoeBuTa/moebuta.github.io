@@ -1,6 +1,6 @@
 ---
 title: "CFC Summer Project"
-tags: Typescript Next.JS Postgres TailwindCSS
+tags: Typescript NextJS Postgres TailwindCSS
 categories: Tech
 ---
 
