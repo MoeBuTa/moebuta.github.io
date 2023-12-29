@@ -1,0 +1,99 @@
+[
+  {
+    "Hepburn": "Sousou no Frieren",
+    "level": 5,
+    "img": "/assets/source/anime/image/summary/winter-23/anime-frieren.jpg",
+    "comment": "The adventurous journey story is so enjoyable!",
+    "english_name": "Frieren: Beyond Journey's End",
+    "japanese_name": "葬送のフリーレン",
+    "chinese_name": "葬送的芙莉莲",
+    "sakura": "https://www.iyhdmm.com/showp/23312.html",
+    "season": 1.1,
+    "status": "end"
+  },
+  {
+    "Hepburn": "Goburin Sureiyā",
+    "level": 4,
+    "comment": "Relatively dull compared to Season 1, but still good to watch.",
+    "img": "/assets/source/anime/image/summary/winter-23/anime-goblin.jpg",
+    "english_name": "Goblin Slayer",
+    "japanese_name": "ゴブリンスレイヤー",
+    "chinese_name": "哥布林杀手",
+    "sakura": "https://www.iyhdmm.com/showp/21158.html",
+    "season": 2,
+    "status": "end"
+  },
+  {
+    "Hepburn": "Tate no Yuusha no Nariagari",
+    "level": 3,
+    "comment": "Raphtalia is still cute, Filo is still adorable, but it feels like the IQ of all the other characters is unbelievably low.",
+    "img": "/assets/source/anime/image/summary/winter-23/anime-tate.jpg",
+    "english_name": "The Rising of the Shield Hero",
+    "japanese_name": "盾の勇者の成り上がり",
+    "chinese_name": "盾之勇者成名录",
+    "sakura": "https://www.iyhdmm.com/showp/23279.html",
+    "season": 3,
+    "status": "end"
+  },
+
+  {
+    "Hepburn": "SPY×FAMILY",
+    "level": 4,
+    "comment": "Still of high quality, but the story is becoming dull.",
+    "img": "/assets/source/anime/image/summary/winter-23/anime-spy.jpg",
+    "english_name": "SPY×FAMILY",
+    "japanese_name": "SPY×FAMILY",
+    "chinese_name": "间谍过家家",
+    "sakura": "https://www.iyhdmm.com/showp/23280.html",
+    "season": 2,
+    "status": "end"
+  },
+  {
+    "Hepburn": "Kanojo mo Kanojo",
+    "level": 6,
+    "comment": "This anime is the best love comedy and harem series ever!! It can make me LMFAO every time! And Shino is soooo good!",
+    "img": "/assets/source/anime/image/summary/winter-23/anime-girlfriend.jpg",
+    "english_name": "Girlfriend, Girlfriend",
+    "japanese_name": "カノジョも彼女",
+    "chinese_name": "女友成双",
+    "sakura": "https://www.iyhdmm.com/showp/23261.html",
+    "season": 2,
+    "status": "end"
+  },
+  {
+    "Hepburn": "shingeki no kyojin",
+    "level": 5,
+    "comment": "The end of an era.",
+    "img": "/assets/source/anime/image/summary/winter-23/anime-attack.jpg",
+    "english_name": "Attack on Titan",
+    "japanese_name": "進撃の巨人",
+    "chinese_name": "进击的巨人",
+    "sakura": "https://www.iyhdmm.com/showp/22326.html",
+    "season": "final",
+    "status": "end"
+  },
+  {
+    "Hepburn": "Bōshoku no Beruseruku",
+    "level": 3,
+    "comment": "Dull story, watch for fun only.",
+    "img": "/assets/source/anime/image/summary/winter-23/anime-berserk.jpg",
+    "english_name": "Berserk of Gluttony",
+    "japanese_name": "暴食のベルセルク",
+    "chinese_name": "暴食狂战士",
+    "sakura": "https://www.iyhdmm.com/showp/23278.html",
+    "season": 1,
+    "status": "end"
+  },
+  {
+    "Hepburn": "Zon 100",
+    "level": 3,
+    "comment": "Finally ended, but not so interesting as before.",
+    "img": "/assets/source/anime/image/summary/fall-23/anime-zom.png",
+    "english_name": "Zom 100: Bucket List of the Dead ",
+    "japanese_name": "ゾン100～ゾンビになるまでにしたい100のこと～",
+    "chinese_name": "僵尸百分百～在成为僵尸前要做的100件事～",
+    "sakura": "https://www.yhdmz.org/showp/23216.html",
+    "season": 1,
+    "status": "end"
+  }
+]

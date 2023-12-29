@@ -1,18 +1,20 @@
 ---
-title: "Anime Summary 2023 Fall"
-tags: Isekai BangDream Campus Otome Action Fantasy
+title: "Anime Summary 2023 Winter"
+tags: Isekai Campus Comedy Adventure Fantasy War
 categories: Anime
 ---
 
-Here's a subjective summary of the anime I enjoyed during the 2023 Fall (July to September), along with my reasons for
+Here's a subjective summary of the anime I enjoyed during the 2023 Winter (October to December), along with my 
+reasons for
 watching each.
 
 All comments and opinions are subjective.
 
 {::options parse_block_html="true" /}
 
+[//]: # ( 775 * 510)
 
-{% assign items = site.data.anime.fall_23 %}
+{% assign items = site.data.anime.winter_23 %}
 
 {% for item in items %}
 
@@ -41,14 +43,13 @@ Recommendation level: {{ stars }}
 [{{item.chinese_name}}]({{item.sakura}}) <br>
 
 {% else %}
-{{item.english_name}} <br>
-{{item.japanese_name}} <br>
+{{item.english_name}} <br> 
+{{item.japanese_name}} <br> 
 [{{item.chinese_name}}]({{item.sakura}}) <br>
-{% endif %}
+ {% endif %}
 
 (season {{item.season}}, {{item.status}})
 </div>
-
 
 
 {% endfor %}
