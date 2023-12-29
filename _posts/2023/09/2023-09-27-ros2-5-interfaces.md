@@ -2,8 +2,6 @@
 title: "ROS2-5: Interfaces"
 tags: ROS Python Linux
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/robot.png
 ---
 
 ROS2 interfaces are the messages and services you use with your topics and services.

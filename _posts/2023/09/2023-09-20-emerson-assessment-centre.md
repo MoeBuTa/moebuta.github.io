@@ -2,8 +2,6 @@
 title: "Emerson's Assessment Centre"
 tags: Emerson
 categories: Interview
-header:
-  teaser: /assets/source/image/teaser/emerson-group-assessment.png
 ---
 
 <div class="notice--primary" markdown="1">

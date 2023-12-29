@@ -2,8 +2,6 @@
 title: "ROS2-4: Services"
 tags: ROS Python
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/robot.png
 ---
 
 Services facilitate client/server communication, supporting both synchronous and asynchronous modes (though asynchronous usage is preferred, even when waiting within the same thread). They offer anonymity, where clients are unaware of the specific server node, simply invoking the service. Similarly, servers remain unaware of client nodes, solely handling incoming requests and providing responses.

@@ -2,8 +2,6 @@
 title: "ROS2-7: Launch Files"
 tags: ROS Python Linux
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/robot.png
 ---
 
 start all your nodes and parameters from one single ROS2 Launch File.

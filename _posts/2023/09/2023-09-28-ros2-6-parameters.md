@@ -2,8 +2,6 @@
 title: "ROS2-6: Parameters"
 tags: ROS Python Linux
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/robot.png
 ---
 
 Parameters will allow you to provide run-time settings for your nodes. No need to compile again.

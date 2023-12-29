@@ -2,8 +2,6 @@
 title: "ROS2: Nav2 Stack"
 tags: ROS Python Linux
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/robot.png
 ---
 
 ## Installation

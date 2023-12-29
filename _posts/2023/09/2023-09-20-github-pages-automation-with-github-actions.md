@@ -2,8 +2,6 @@
 title: "GitHub Pages Automation with Github Actions"
 tags: GitHub
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/github-action.png
 ---
 
 This post is based on [iBug's post][ibugpost], where I've excerpted parts of the original notes for my future reference and learning.

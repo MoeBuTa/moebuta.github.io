@@ -2,8 +2,6 @@
 title: "ROS2: Transform"
 tags: ROS Python Linux
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/robot.png
 ---
 
 A link in robotics typically refers to a physical component or part of a robot. These physical components can include things like robot arms, wheels, sensors, grippers, and other mechanical parts.

@@ -2,8 +2,6 @@
 title: "ROS2-1: Write Your First ROS2 Program"
 tags: ROS Python CPP Linux
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/robot.png
 ---
 
 Learning Robot Operating System (ROS) for the preparation of applying for a PhD degree.

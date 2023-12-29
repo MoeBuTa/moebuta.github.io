@@ -2,8 +2,6 @@
 title: "WA Health Hackathon"
 tags: Hackathon
 categories: Tech 
-header:
-  teaser: /assets/source/image/teaser/wa-health-hackathon.png
 toc: False
 ---
 

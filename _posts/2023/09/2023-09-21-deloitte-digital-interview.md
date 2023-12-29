@@ -2,8 +2,6 @@
 title: "Deloitte's Digital Interview"
 tags: Deloitte
 categories: Interview
-header:
-  teaser: /assets/source/image/teaser/deloitte-digital-interview.png
 ---
 
 Yesterday I just completed a digital interview from Deloitte. Previously I just directly being rejected by them right after I applied from the position. So this is the first time I received a digital interview invitation from Deloitte, which is a good experience for me to learn and practice my interview skills. The position I applied for is [Tax - Research and Development - Gi3 - 2024 Graduate Program (Perth)][Tax].

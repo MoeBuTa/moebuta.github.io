@@ -2,8 +2,6 @@
 title: "Use Jekyll to Build Static Website"
 tags: Jekyll
 categories: Tech
-header:
-  teaser: /assets/source/image/teaser/jekyll.png
 ---
 
 A note for writing down useful commands and concepts of Jekyll during the development of this website. Might constantly update it...

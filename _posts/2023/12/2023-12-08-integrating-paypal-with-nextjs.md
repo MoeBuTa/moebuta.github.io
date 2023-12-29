@@ -26,7 +26,9 @@ NEXT_PUBLIC_PAYPAL_CLIENT_ID = "<your-client-id>"
 
 in components/paypal.tsx
 
+{% raw %}
 ```typescript
+
 import React from "react";
 import {
     PayPalButtons,
@@ -130,8 +132,8 @@ const Paypal: React.FC = () => {
 };
 
 export default Paypal;
-
 ```
+{% endraw %}
 
 ## Implement backend checkout server
 
