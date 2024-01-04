@@ -5,30 +5,32 @@ toc: true
 permalink: /about
 ---
 
-[//]: # (<div class="notice--primary" markdown="1">)
 
-[//]: # (#### <i class="fas fa-fw fa-lightbulb"></i> Update 2023/10/23)
 
-[//]: # ({: .no_toc })
+<div class="notice--success" markdown="1">
 
-[//]: # ()
-[//]: # (I just applied)
 
-[//]: # ()
-[//]: # (</div>)
+ <b><i class="fas fa-fw fa-lightbulb"></i> Update 2023/12/21</b>
+
+
+
+I've secured an offer for the PhD program at UWA with a full scholarship!
+
+
+</div>
 
 
 <a href="https://moebuta.github.io/" >
 <img align='right' src='/assets/source/anime/image/elaina.png' width="270" height="auto" >
 </a>
 
-### Hi there 👋
+## Hi there 👋
 
 I'm MoeBuTa (nickname) / Wenxiao (legal name) / Wes (English name).
 
 A graduate from The University of Western Australia with a Master's degree in Software Engineering.
 
-Python, C/C++, and Java are my primary programming languages for coursework and projects.
+Python and Javascript are my primary programming languages for coursework and projects.
 
 Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
@@ -72,6 +74,7 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
  - **Version Control**: Git
  - **Web Development**: React.js, Next.js, Tailwind CSS, Flask, Django, Jekyll
  - **Automation**: Shell scripts, Docker, GitHub Action, Systemd services
+ - **Technique**: LLM
 </details>
 
 
@@ -107,6 +110,47 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
 [//]: # (- [Fingerstyle]&#40;/dip&#41;)
 
+
+## Games
+
+**Currently Playing**:
+ - DotA2 (Immortal player)
+ - Honkai: Star Rail
+ - Cyberpunk 2077
+
+**Previously Played**:
+ - **Gacha**:
+   - Genshin Impact
+   - Princess Connect! Re:Dive
+ - **Single-player**
+   - Persona 5 Royal
+   - The Witcher 3
+   - Rise of the Tomb Raider
+   - GTA 5 story mode
+   - Portal / Portal 2
+   - Ultimate Ninja Storm 4
+   - Trine 2
+   - ...
+ - **Multiple-Player**
+   - DotA
+   - Starcraft 2
+   - Warcraft 3
+   - Overwatch
+   - PUBG
+   - Pummel Party
+   - CSGO
+   - Apex
+   - ...
+ - **Mini-Game**
+   - Cuphead
+   - Plants vs Zombies
+   - Darkest Dungeon
+   - Magic Tower series
+   - South Park: The Stick of Truth
+   - ...
+ - **Gal-Game**
+   - If My Heart Had Wings
+   - Doki Doki Literature Club (?)
 
   [UWA]: https://www.uwa.edu.au/
   [AWS]: https://www.credly.com/badges/82057be6-157e-4f61-9707-8d84f519eef7/linked_in_profile
