@@ -34,9 +34,11 @@ Python and Javascript are my primary programming languages for coursework and pr
 
 Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
+- 📄 My Resume: [Resume](/assets/materials/Resume/Resume.pdf)
 - 🔗 My website: [https://moebuta.github.io/](https://moebuta.github.io/)
 - 📫 You can reach me at [moebutamail@gmail.com](moebutamail@gmail.com)
 - 🖇️ Connect with me on LinkedIn: [https://www.linkedin.com/in/wenxiao-zhang-a0801b206/](https://www.linkedin.com/in/wenxiao-zhang-a0801b206/)
+
 
 ## Projects
 
