@@ -1,6 +1,6 @@
 ---
 title: "Generative AI with LLMs 1"
-tags: AI LLM
+tags: AI LLM Transformer
 categories: Tech
 ---
 
@@ -12,6 +12,16 @@ Learns the relevance of each word to each other word in a sentence.
 
 ### Simplified architecture
 ![transformer-simplified](/assets/source/image/blog/transformer-simplified.png)
+
+**Encoder**
+   - Encodes inputs ("prompts") with contextual understanding and produces one vector per input token.
+   - The data that leaves the encoder is a deep representation of the structure and meaning of the input sequence
+   - It consists of multiple identical layers, each with two main components: Multi-Head Self-Attention Mechanism and Position-wise Feedforward Networks.
+
+**Decoder**
+ - Accepts input tokens and generates new tokens in a loop. 
+ - Like the encoder, the decoder consists of multiple identical layers, but with additional components: Multi-Head Self-Attention Mechanism, **Multi-Head Attention over the encoder's output**, and Position-wise Feedforward Networks.
+
 
 ![transformer-tokenizer](/assets/source/image/blog/transformer-tokenizer.png)
 
@@ -50,4 +60,76 @@ You can then pass these logits to a final softmax layer, where they are normaliz
 
 ### Detailed architecture
 ![transformer-arch](/assets/source/image/blog/transformer-arch.png)
+
+
+## Transformer models
+
+### Encoder-only model
+
+**Example:** BERT (Bidirectional Encoder Representations from Transformers)
+
+**Architecture:**
+BERT is an example of an encoder-only model.
+It utilizes a multi-layer bidirectional Transformer encoder.
+
+**Task:**
+Pre-trained on large corpora for various language understanding tasks, such as question answering, natural language inference, and more.
+It captures contextualized representations of words in a bidirectional manner.
+
+**Usage:**
+Given a sentence or text, BERT can be used to extract features or embeddings for downstream tasks without the need for a decoder. 
+
+### Decoder-Only Model:
+
+**Example:** GPT, BLOOM, Jurassic, LLaMA
+
+**Architecture:**
+GPT is an example of a decoder-only model.
+
+It uses a stack of Transformer decoders.
+**Task:**
+Pre-trained on a diverse range of internet text to generate coherent and contextually relevant text.
+
+**Usage:**
+Given a prompt or an initial sequence, GPT can generate a continuation, making it useful for tasks like text completion, summarization, and creative text generation.
+
+### Encoder-Decoder Model:
+
+**Example:** Transformer (for machine translation), BART, T5
+
+**Architecture:**
+The original Transformer model is an encoder-decoder architecture.
+
+**Task:**
+Trained for sequence-to-sequence tasks like machine translation.
+The encoder processes the source language, and the decoder generates the target language.
+
+**Usage:**
+Given a sentence in one language, the encoder processes it into a fixed-size context representation. The decoder then generates the equivalent sentence in another language.
+
+## Prompt Engineering
+
+ - Prompt: the text that you feed into the model
+
+ - Inference: the act of generating text
+
+ - Completion: the output text
+
+![llm-icl](/assets/source/image/blog/llm-icl.png)
+
+## Generative Config
+
+### Greedy vs random sampling
+![gen-greedy](/assets/source/image/blog/gen-greedy.png)
+
+
+### Top-k and Top-p
+![topktopp](/assets/source/image/blog/topktopp.png)
+
+### Temperature
+![gen-temp](/assets/source/image/blog/gen-temp.png)
+
+
+## Generative AI Lifecycle
+![gen-lifecycle](/assets/source/image/blog/gen-lifecycle.png)
 
