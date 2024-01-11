@@ -4,7 +4,7 @@ tags: AI LLM Transformer
 categories: Tech
 ---
 
-[Lecture Notes](/assets/materials/GenAILLM%20Slides/W1.pdf)
+[Lecture Notes](/assets/materials/LLM/GenAILLM%20Slides/W1.pdf)
 
 ## Transformers
 

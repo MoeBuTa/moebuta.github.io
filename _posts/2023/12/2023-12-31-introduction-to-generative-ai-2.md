@@ -6,7 +6,7 @@ categories: Tech
 
 AI that can produce high quality content, such as text, images, and audio. [Link](https://www.coursera.org/learn/generative-ai-for-everyone/lecture/chD5R/welcome)
 
-[Materials](/assets/materials/GenAI4E%20Slides/GenAI4E%20Week%202.pdf)
+[Materials](/assets/materials/LLM/GenAI4E%20Slides/GenAI4E%20Week%202.pdf)
 
 ## Prompting an LLM in code
 
