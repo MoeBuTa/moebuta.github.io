@@ -133,3 +133,83 @@ Given a sentence in one language, the encoder processes it into a fixed-size con
 ## Generative AI Lifecycle
 ![gen-lifecycle](/assets/source/image/blog/gen-lifecycle.png)
 
+
+## LLM pre-training
+
+![llm-pretrain-1](/assets/source/image/blog/llm-pretrain-1.png)
+
+self-supervised learning step.
+
+the model internalizes the patterns and structures present in the language.
+
+These patterns then enable the model to complete its training objective, which depends on the architecture of the model.
+
+the model weights get updated to minimize the loss of the training objective. The encoder generates an embedding or 
+vector representation for each token.
+
+when you scrape training data from public sites such as the Internet, you often need to process the data to increase quality, address bias, and remove other harmful content. As a result of this data quality curation, often only 1-3% of tokens are used for pre-training.
+
+### Encoder-only model
+
+Masked Language Modeling (MLM)
+
+use cases:
+ - sentiment analysis
+ - named entity recognition
+ - word classification
+
+examples:
+ - BERT
+ - ROBERTA
+
+![llm-pretrain-2](/assets/source/image/blog/llm-pretrain-2.png)
+
+
+### Decoder-only model
+
+Causal Language Modeling (CLM)
+
+use cases:
+ - text generation
+ - other emergent behavior
+   - depends on model size
+ 
+examples:
+ - GPT
+ - BLOOM
+
+![llm-pretrain-3](/assets/source/image/blog/llm-pretrain-3.png)
+
+### Encoder-Decoder model
+
+
+use cases:
+- translation
+- text summarization
+- question answering
+
+
+examples:
+- T5
+- BART
+
+![llm-pretrain-4](/assets/source/image/blog/llm-pretrain-4.png)
+
+### Summary
+
+![llm-pretrain-5](/assets/source/image/blog/llm-pretrain-5.png)
+
+
+## Multi-GPU compute strategies
+
+zeRO
+
+![multi-gpu](/assets/source/image/blog/multi-gpu.png)
+
+
+## Pretrain Model for Domain adaptation
+
+BloombergGPT: A Large Language Model for Finance.
+
+
+
