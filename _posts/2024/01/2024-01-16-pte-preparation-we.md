@@ -2,10 +2,12 @@
 title: "PTE Preparation-WE"
 tags: PTE
 categories: Other
+toc: False
 ---
 
 These days, there is an ongoing debate between people about **television** and if it should be viewed as a positive or 
-negative impact on society.While it is possible to claim that **television** provides a good source of entertainment for people, my view is that the disadvantages outweigh the advantages. In this essay, I shall explain my point of view 
+negative impact on society. While it is possible to claim that **television** provides a good source of 
+entertainment for people, my view is that the disadvantages outweigh the advantages. In this essay, I shall explain my point of view 
 by analysing both sides of the argument.
 
 There are several reasons why **television** is  considered to be disadvantageous to society. One of them is that 
