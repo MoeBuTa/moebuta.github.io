@@ -1,5 +1,5 @@
 ---
-title: "PTE Preparation-WFD"
+title: "PTE Preparation: WFD"
 tags: PTE
 categories: Other
 toc: False
@@ -125,4 +125,34 @@ toc: False
 118. Students should leave their bags on the table by the door.
 119. Students who study overseas can significantly increase their work chances.
 120. Studies showed there is a positive correlation between the two variables.
+121. The ability to work with fellow students cannot be stressed enough.
+122. The application processes may take longer than expected.
+123. The archaeologists new discoveries stand out in previously overlooked foundations.
+124. The area has a number of underwater habitats and species.
+125. The artists tied to the conservative politicians earned the roles of critics.
+126. The assessment of this course will begin next week.
+127. The biology department is dedicated to research activities.
+128. The bus for London will leave ten minutes later than planned.
+129. The campus library will be closed during the winter break.
+130. The celebrated theory is still a source of great controversy.
+131. The chemistry building is located near the entrance to the campus.
+132. The city's founders created a set of rules that became law.
+133. The collapse of the housing market has caused recessions.
+134. The college operates a system of continuous assessments.
+135. The commissioner will apportion the funds among all the authorities.
+136. The course involves a combination of pure and applied mathematics.
+137. The course office is closed on Wednesday and Friday.
+138. The course will help students to improve their pronunciation skills.
+139. The curriculum should be adjusted to the current development.
+140. The dance department stages elaborated performances each semester.
+141. The degree is taught by using a mixture of lectures and seminars.
+142. The department has a higher-than-normal proportion of postgraduate students.
+143. The department works closely with business communities.
+144. The designers will complete the plan later today.
+145. The digital camera has some advantages over traditional film.
+146. The director of the gallery was grateful for the anonymous donation.
+147. The economic predictions turned out to be incorrect.
+148. The essay is easy to write once the research is completed.
+149. The essay will be published once the research is finished.
+150. The extent of advertising to children is very much open to debate.
 

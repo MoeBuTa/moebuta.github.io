@@ -1,10 +1,10 @@
 ---
-title: "PTE Preparation-DI-and-RL"
+title: "PTE Preparation: DI and RL"
 tags: PTE
 categories: Other
 ---
 
-## DI
+## Describe Image
 
 T S:
  - **The** following picture **shows** the information about ___.
@@ -25,7 +25,7 @@ In P inter:
  - **In** conclusion, the **picture** is very **interesting**.
 
 
-## RL
+## Retell Lecture
 
 I L T:              
  - In this **lecture** the speaker **talks** about ___.
