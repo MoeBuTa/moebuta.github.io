@@ -5,6 +5,8 @@ categories: Other
 toc: False
 ---
 
+## 1 - 50
+
 1. A good academic paper should present a clear argument.
 2. A group meeting will be held tomorrow in the library conference room.
 3. A laptop computer has been found in the biology lab.
@@ -55,6 +57,9 @@ toc: False
 48. Good nutrition is crucial to general health and vitality.
 49. Graduates from this course typically pursue careers in financial sector.
 50. Gravity is the force that attracts two bodies toward one another.
+
+## 51-100
+
 51. He landed a job in a very prestigious law firm.
 52. He was regarded as the foremost economist at his time.
 53. His analysis study appears to be based on the false premise.
@@ -105,6 +110,9 @@ toc: False
 98. Radio is a popular form of entertainment throughout the world.
 99. Relying on natural ability will not get you far in science.
 100. Remember the prestigious election of stewardship has strict eligibility criteria.
+
+## 101-150
+
 101. Renovation works are currently undertaken throughout the whole building.
 102. Request for the late application will not be accepted under any circumstances.
 103. Research shows that exercising makes us feel better. 
@@ -155,4 +163,71 @@ toc: False
 148. The essay is easy to write once the research is completed.
 149. The essay will be published once the research is finished.
 150. The extent of advertising to children is very much open to debate.
+
+## 151-200
+
+151. The government department was doing some crucial work on climate change.
+152. The island is located at the south end of the bay.
+153. The key difference between courses is the kind of assessment.
+154. The key witnesses to the event have conflicting recollections.
+155. The library will be closed for staff training tomorrow morning.
+156. The momentum is defined as the combination of mass and velocity.
+157. The north campus car park could be closed on Sunday.
+158. The notification will not be received until the following week.
+159. The opening hours of the library are reduced during summer.
+160. The orchestra will be led by a visiting conductor.
+161. The plight of local wildlife has been ignored by developers.
+162. The poster of this play is hung in the largest lecture theatre.
+163. The professor took one year off to work on her book.
+164. The qualification will be assessed by using a criterion-referenced approach.
+165. The railway makes long-distance travel possible for everyone.
+166. The reception staff give advice on renting private accommodation.
+167. The rising temperature is changing the wildlife population.
+168. The shipwrecks of this year ruined some artifacts which were interested by historians.
+169. The speaker began by giving an outline of her presentation.
+170. The stock market crash had repercussions throughout the world.
+171. The student union hosts a variety of social events.
+172. The students were instructed to submit their assignments before Friday.
+173. The study centre in the library has all the latest technologies.
+174. The subject is complex and difficult to explain.
+175. The university library has most of the necessary books.
+176. The university should have invested in new technologies designed for learning.
+177. The university theatre group will be performing in the concert hall.
+178. The university will cease the colossal renovation to the faint empty theatre.
+179. The very basic definition of computing would be counting and calculating.
+180. There are many different types of governments in the world.
+181. There are some doubts about whether these events actually occurred.
+182. There is a great deal of debate on that topic.
+183. There is a pharmacy on campus near the bookstore.
+184. There is accounting assignment for finance students.
+185. There is no fixed career path for a qualified journalist.
+186. There will be a chemistry test in the class next week.
+187. They developed a unique approach to train their employees.
+188. This advanced course requires a basic knowledge of economic theory.
+189. This course is based on experimentation and practice.
+190. This morning's lecture on economic policy has been cancelled.
+191. Time and distance are used to calculate speed.
+192. Too much information may have been avoided by the group research design.
+193. Traffic is the main cause of air pollution in many cities.
+194. Trees benefit the city by soaking up the rainwater that runs off the roads.
+195. Tribes vied with each other to build monolithic statues.
+196. Tutors should set a clear goal at the start of the class.
+197. Understanding how to use the library will save your time.
+198. Visual aid can be really helpful when you are revising.
+199. Vocabulary that is peculiar in a special field is called jargon.
+200. We encourage students to complete their applications before the deadline.
+
+## 201-212
+201. We should never underestimate the power of creative design.
+202. We study science to understand and appreciate the world around us.
+203. When the root system of a plant fails, foliage suffers.
+204. While some people regard it as reforming zeal, others regard it as recklessness.
+205. Years of training are required to become a medical specialist.
+206. You can use your laptops in the lecture.
+207. You do not need specialist knowledge to enjoy this book.
+208. You mush hand in your essays by midday on Friday.
+209. You need to put those books on the table over there.
+210. You should have awareness of how the business operates globally.
+211. You will be tested by continuous assessments and examinations.
+212. Your ideas are discussed and debated in seminars and tutorials.
 
