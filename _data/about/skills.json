@@ -1,0 +1,25 @@
+{
+  "current": {
+    "programming": "Python, Javascript",
+    "vcs": "Git",
+    "web": "React.js, Next.js, Tailwind CSS, Flask, Jekyll",
+    "automation": "Docker, GitHub Action",
+    "techniques": "LLM, Transformer, ROS 2"
+  },
+
+  "other": {
+    "programming": "R, Java, C/C++, HTML/CSS/JS",
+    "vcs": "SVN",
+    "web": "JQuery, Angular.js, Vue.js, Spring Boot, SpringMVC, MySQL, SQLite",
+    "frameworks": {
+      "simulation": "SimPy, Gazebo",
+      "visualisation": "Matplotlib, Seaborn, NetworkX, ggplot",
+      "data_processing": "NumPy, Pandas, SciPy",
+      "machine_learning": "Sckit-learn, TensorFlow, PyTorch"
+    },
+    "certification": "[AWS Certified Cloud Practitioner][AWS]",
+    "text_editor": "Overleaf, Markdown, MS Word",
+    "hardware": " Microcontroller Programming, Raspberry Pi"
+
+  }
+}

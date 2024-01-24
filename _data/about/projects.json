@@ -1,0 +1,42 @@
+[
+  {
+    "icon":"👩‍👧‍👦",
+    "project": "[Starick](https://github.com/codersforcauses/starick)",
+    "description": "A desktop and mobile website aiming to raise funds and awareness for Starick."
+  },
+  {
+    "icon":"🔐",
+    "project": "[MTDSimTime](https://github.com/MoeBuTa/MTDSimTime)",
+    "description": "A research project on the simulation and evaluation of multiple moving target defence in the time domain."
+  },
+  {
+    "icon":"🏥",
+    "project": "[PubMedConnections](https://github.com/PubMedConnections/PubMedConnections)",
+    "description": "A tool for exploring the relationships between authors in the PubMed database."
+  },
+  {
+    "icon":"🛤\uFE0F",
+    "project": "[SlimeMould](https://github.com/MoeBuTa/SlimeMould)",
+    "description": "A Python-based model simulating the slime mould's behaviour using the Nanjing subway system's geometric data."
+  },
+  {
+    "icon":"♟\uFE0F",
+    "project": "[ChineseChessTutorial](https://github.com/MoeBuTa/ChineseChessTutorial)",
+    "description": "CITS3403 Agile Web Development project using Flask, Jinja, and Sqlite."
+  },
+  {
+    "icon":"🔢",
+    "project": "[ComputationalAnalysis](https://github.com/MoeBuTa/ComputationalAnalysis)",
+    "description": "CITS4009 Computational Analysis data visualisation project written in R."
+  },
+  {
+    "icon":"🖥️",
+    "project": "[MachineLearning](https://github.com/MoeBuTa/MachineLearning)",
+    "description": "CITS5508 Machine Learning lab assignments."
+  },
+  {
+    "icon":"☁\uFE0F",
+    "project": "[CloudComputing](https://github.com/MoeBuTa/CloudComputing)",
+    "description": "AWS certification exam notes and CITS5503 Cloud Computing lab assignments."
+  }
+]

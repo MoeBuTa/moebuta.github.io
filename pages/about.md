@@ -5,26 +5,15 @@ toc: true
 permalink: /about
 ---
 
+{::options parse_block_html="true" /}
 
 
-<div class="notice--success" markdown="1">
-
-
- <b><i class="fas fa-fw fa-lightbulb"></i> Update 2023/12/21</b>
-
-
-
-I've secured an offer for the PhD program at UWA with a full scholarship!
-
-
-</div>
-
+## Intro
 
 <a href="https://moebuta.github.io/" >
-<img align='right' src='/assets/source/anime/image/elaina.png' width="270" height="auto" >
+<img align='right' src='/assets/source/anime/image/elaina.png' width="150" height="auto" >
 </a>
 
-## Hi there 👋
 
 I'm MoeBuTa (nickname) / Wenxiao (legal name) / Wes (English name).
 
@@ -34,125 +23,120 @@ Python and Javascript are my primary programming languages for coursework and pr
 
 Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
+An incoming PhD candidate(?)...
+
 - 📄 My Resume: [Resume](/assets/materials/Resume/Resume.pdf)
 - 🔗 My website: [https://moebuta.github.io/](https://moebuta.github.io/)
 - 📫 You can reach me at [moebutamail@gmail.com](moebutamail@gmail.com)
 - 🖇️ Connect with me on LinkedIn: [https://www.linkedin.com/in/wenxiao-zhang-a0801b206/](https://www.linkedin.com/in/wenxiao-zhang-a0801b206/)
 
 
+## News
+
+<details open markdown="1">
+<summary></summary>
+{% assign updates = site.data.about.news %}
+
+{% for item in updates %}
+
+<div class="{{item.theme}}" markdown="1">
+
+<b><i class="fas fa-fw fa-lightbulb"></i>{{item.date}}</b>
+
+{{item.content}}
+
+</div>
+
+{% endfor %}
+
+</details>
+
+
 ## Projects
 
-👩‍👧‍👦 [Starick](https://github.com/codersforcauses/starick) - A desktop and mobile website aiming to raise funds and awareness for Starick.
+<details open markdown="1">
+<summary></summary>
+{% assign projects = site.data.about.projects %}
 
-🔐 [MTDSimTime](https://github.com/MoeBuTa/MTDSimTime) - A research project on the simulation and evaluation of multiple moving target defence in the time domain.
+{% for item in projects %}
 
-🏥 [PubMedConnections](https://github.com/PubMedConnections/PubMedConnections) - A tool for exploring the relationships between authors in the PubMed database.
+{{item.icon}} {{item.project}} - {{item.description}}
 
-🛤️ [SlimeMould](https://github.com/MoeBuTa/SlimeMould) - A Python-based model simulating the slime mould's behaviour using the Nanjing subway system's geometric data.
+{% endfor %}
 
-♟️ [ChineseChessTutorial](https://github.com/MoeBuTa/ChineseChessTutorial) - CITS3403 Agile Web Development project using Flask, Jinja, and Sqlite.
-
-🔢 [ComputationalAnalysis](https://github.com/MoeBuTa/ComputationalAnalysis) - CITS4009 Computational Analysis data visualisation project written in R.
-
-🖥️ [MachineLearning](https://github.com/MoeBuTa/MachineLearning) - CITS5508 Machine Learning lab assignments.
-
-☁️ [CloudComputing](https://github.com/MoeBuTa/CloudComputing) - AWS certification exam notes and CITS5503 Cloud Computing lab assignments.
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MoeBuTa&layout=compact&theme=tokyonight&card_width=500&langs_count=10)](https://github.com/MoeBuTa/github-readme-stats)
 
 [![MoeBuTa's GitHub stats](https://github-readme-stats.vercel.app/api?username=MoeBuTa&theme=tokyonight&rank_icon=github&card_width=500)](https://github.com/MoeBuTa/github-readme-stats)
 
-
+</details>
 
 ## Skills
 
-{::options parse_block_html="true" /}
-
+<details open markdown="1">
+<summary></summary>
+{% assign skills = site.data.about.skills %}
 
 <details open markdown="1">
 <summary> **Currently using/learning**
 </summary>
- - **Programming**: Python
- - **Version Control**: Git
- - **Web Development**: React.js, Next.js, Tailwind CSS, Flask, Django, Jekyll
- - **Automation**: Shell scripts, Docker, GitHub Action, Systemd services
- - **Technique**: LLM
+ - **Programming**: {{skills.current.programming}}
+ - **Version Control**: {{skills.current.vcs}}
+ - **Web Development**: {{skills.current.web}}
+ - **Automation**: {{skills.current.automation}}
+ - **Technique**: {{skills.current.techniques}}
 </details>
 
 
 <details open markdown="1">
 <summary> **Other knowledge**
 </summary>
- - **Programming**: R, Java, C/C++, HTML/CSS/JS
- - **Version Control**: SVN
- - **Technology**: ROS2
- - **Web**: JQuery, Angular.js, Vue.js, Spring Boot, SpringMVC, MySQL, SQLite
+ - **Programming**: {{skills.other.programming}}
+ - **Version Control**: {{skills.other.vcs}}
+ - **Web**: {{skills.other.web}}
  - **Frameworks**: 
-   - Simulation: SimPy 
-   - Visualisation: Matplotlib, Seaborn, NetworkX, ggplot
-   - Data Processing: NumPy, Pandas, SciPy
-   - Machine Learning: Sckit-learn, PyTorch
- - **Certification**: [AWS Certified Cloud Practitioner][AWS]
- - **Text Editor**: Overleaf, Markdown, MS Word
- - **Hardware**: Microcontroller Programming, Raspberry Pi
+   - Simulation: {{skills.other.frameworks.simulation}}
+   - Visualisation: {{skills.other.frameworks.visualisation}}
+   - Data Processing: {{skills.other.frameworks.data_processing}}
+   - Machine Learning: {{skills.other.frameworks.machine_learning}}
+ - **Certification**: {{skills.other.certification}}
+ - **Text Editor**: {{skills.other.text_editor}}
+ - **Hardware**: {{skills.other.hardware}}
+</details>
+
 </details>
 
 ## Languages
-
-- **Chinese**: Native to Simplified (written) and Mandarin (spoken)
-- **English**: Proficient as a second language, preferred language for work and leisure
-- **Japanese**: Can follow basic conversations, thanks to Anime <i class='fa-brands fa-bilibili'></i>
-
-[//]: # (## Entertainments)
-
-[//]: # ()
-[//]: # (- [Anime]&#40;/dip&#41;)
-
-[//]: # (- [Game]&#40;/dip&#41;)
-
-[//]: # (- [Fingerstyle]&#40;/dip&#41;)
-
-
+<details open markdown="1">
+<summary></summary>
+{% assign languages = site.data.about.languages %}
+- **Chinese**: {{languages.chinese}}
+- **English**: {{languages.english}}
+- **Japanese**: {{languages.japanese}}
+</details>
 ## Games
 
-**Currently Playing**:
- - DotA2 (Immortal player)
- - Honkai: Star Rail
- - Cyberpunk 2077
+<details open markdown="1">
+<summary></summary>
+
+{% assign games = site.data.about.games %}
+
+**Currently Playing / Wanna Play**:
+ - {{games.current}}
 
 **Previously Played**:
  - **Gacha**:
-   - Genshin Impact
-   - Princess Connect! Re:Dive
- - **Single-player**
-   - Persona 5 Royal
-   - The Witcher 3
-   - Rise of the Tomb Raider
-   - GTA 5 story mode
-   - Portal / Portal 2
-   - Ultimate Ninja Storm 4
-   - Trine 2
-   - ...
+   - {{games.previous.gacha}}
+ - **Single-player (Offline)**
+   - {{games.previous.single}}
  - **Multiple-Player**
-   - DotA
-   - Starcraft 2
-   - Warcraft 3
-   - Overwatch
-   - PUBG
-   - Pummel Party
-   - CSGO
-   - Apex
-   - ...
+   - {{games.previous.multiple}}
  - **Mini-Game**
-   - Cuphead
-   - Plants vs Zombies
-   - Darkest Dungeon
-   - Magic Tower series
-   - South Park: The Stick of Truth
-   - ...
+   - {{games.previous.mini}}
  - **Gal-Game**
-   - If My Heart Had Wings
-   - Doki Doki Literature Club (?)
+   - {{games.previous.gal}}
+</details>
 
-  [UWA]: https://www.uwa.edu.au/
-  [AWS]: https://www.credly.com/badges/82057be6-157e-4f61-9707-8d84f519eef7/linked_in_profile
+
+[UWA]: https://www.uwa.edu.au/
+[AWS]: https://www.credly.com/badges/82057be6-157e-4f61-9707-8d84f519eef7/linked_in_profile
