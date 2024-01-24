@@ -2,7 +2,6 @@
 title: "PTE Preparation: WFD"
 tags: PTE
 categories: Other
-toc: False
 ---
 
 ## 1 - 50
