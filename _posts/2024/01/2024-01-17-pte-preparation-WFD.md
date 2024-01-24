@@ -2,9 +2,10 @@
 title: "PTE Preparation: WFD"
 tags: PTE
 categories: Other
+toc: False
 ---
 
-## 1 - 50
+
 
 1. A good academic paper should present a clear argument.
 2. A group meeting will be held tomorrow in the library conference room.
@@ -56,9 +57,6 @@ categories: Other
 48. Good nutrition is crucial to general health and vitality.
 49. Graduates from this course typically pursue careers in financial sector.
 50. Gravity is the force that attracts two bodies toward one another.
-
-## 51-100
-
 51. He landed a job in a very prestigious law firm.
 52. He was regarded as the foremost economist at his time.
 53. His analysis study appears to be based on the false premise.
@@ -109,9 +107,6 @@ categories: Other
 98. Radio is a popular form of entertainment throughout the world.
 99. Relying on natural ability will not get you far in science.
 100. Remember the prestigious election of stewardship has strict eligibility criteria.
-
-## 101-150
-
 101. Renovation works are currently undertaken throughout the whole building.
 102. Request for the late application will not be accepted under any circumstances.
 103. Research shows that exercising makes us feel better. 
@@ -162,9 +157,6 @@ categories: Other
 148. The essay is easy to write once the research is completed.
 149. The essay will be published once the research is finished.
 150. The extent of advertising to children is very much open to debate.
-
-## 151-200
-
 151. The government department was doing some crucial work on climate change.
 152. The island is located at the south end of the bay.
 153. The key difference between courses is the kind of assessment.
@@ -215,8 +207,6 @@ categories: Other
 198. Visual aid can be really helpful when you are revising.
 199. Vocabulary that is peculiar in a special field is called jargon.
 200. We encourage students to complete their applications before the deadline.
-
-## 201-212
 201. We should never underestimate the power of creative design.
 202. We study science to understand and appreciate the world around us.
 203. When the root system of a plant fails, foliage suffers.
