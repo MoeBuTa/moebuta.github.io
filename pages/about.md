@@ -127,16 +127,16 @@ An incoming PhD candidate(?)...
 **Previously Played**:
  - **Gacha**:
    - {{games.previous.gacha}}
- - **Single-player (Offline)**
+ - **Single-player (Offline)**:
    - {{games.previous.single}}
- - **Multiple-Player**
+ - **Multiple-Player**:
    - {{games.previous.multiple}}
- - **Mini-Game**
+ - **Mini-Game**:
    - {{games.previous.mini}}
- - **Gal-Game**
+ - **Gal-Game**:
    - {{games.previous.gal}}
 </details>
 
-
+ 
 [UWA]: https://www.uwa.edu.au/
 [AWS]: https://www.credly.com/badges/82057be6-157e-4f61-9707-8d84f519eef7/linked_in_profile
