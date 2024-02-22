@@ -27,7 +27,7 @@ An incoming PhD candidate(?)...
 
 - 📄 My Resume: [Resume](/assets/materials/Resume/Resume.pdf)
 - 🔗 My website: [https://moebuta.github.io/](https://moebuta.github.io/)
-- 📫 You can reach me at [moebutamail@gmail.com](moebutamail@gmail.com)
+- 📫 You can reach me at [moebutamail@gmail.com](moebutamail@gmail.com) or [wenxiao.zhang@research.uwa.edu.au](wenxiao.zhang@research.uwa.edu.au)
 - 🖇️ Connect with me on LinkedIn: [https://www.linkedin.com/in/wenxiao-zhang-a0801b206/](https://www.linkedin.com/in/wenxiao-zhang-a0801b206/)
 
 
