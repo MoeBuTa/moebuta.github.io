@@ -1,5 +1,11 @@
 [
   {
+    "theme": "notice--primary",
+    "date": "2024/02/26",
+    "content": "I'm starting a casual job as a lab facilitator for CITS1003 at UWA!"
+  },
+
+  {
     "theme": "notice--success",
     "date": "2023/12/21",
     "content": "I've obtained an offer for the PhD program at UWA with a full scholarship!"
