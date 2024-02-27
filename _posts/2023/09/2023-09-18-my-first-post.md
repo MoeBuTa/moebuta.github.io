@@ -1,6 +1,6 @@
 ---
 title: "My First Post"
-categories: Other
+categories: Tech
 ---
 
 The following articles are copied from the resource in a [udemy tutorial][tutorial], where I learned basic knowledge of how to build and deploy a Jekyll-based website. I will keep them together in this page 

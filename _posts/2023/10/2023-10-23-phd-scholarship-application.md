@@ -1,7 +1,7 @@
 ---
 title: "PhD Scholarship Application"
-tags: phd
-categories: Other
+tags: scholarship
+categories: PhD
 ---
 
 

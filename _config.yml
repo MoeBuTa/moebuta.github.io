@@ -384,7 +384,7 @@ defaults:
       toc_sticky: true
       toc_icon: "file-alt fa-fw"
       header:
-        overlay_image: "/assets/source/anime/image/background/sleep.png"
+        overlay_image: "/assets/source/image/wallpaper/sleep.png"
         show_overlay_excerpt: false
       sidebar:
         nav: home

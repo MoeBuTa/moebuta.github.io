@@ -1,7 +1,7 @@
 ---
 title: "Tiktok Practice Questions"
 tags: tiktok Python
-categories: Algorithm
+categories: Interview
 ---
 
 <div class="notice--primary" markdown="1">

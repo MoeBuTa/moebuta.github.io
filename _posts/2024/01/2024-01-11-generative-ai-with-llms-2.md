@@ -4,7 +4,7 @@ tags: AI LLM Fine-tuning
 categories: Tech
 ---
 
-[Lecture Notes](/assets/materials/LLM/GenAILLM%20Slides/W2.pdf)
+[Lecture Notes](/assets/source/materials/deeplearning.ai/GenAILLM%20Slides/W2.pdf)
 
 ## Parameter Efficient Fine-tuning (PEFT)
 

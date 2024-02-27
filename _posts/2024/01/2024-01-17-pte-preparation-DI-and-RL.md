@@ -1,7 +1,7 @@
 ---
 title: "PTE Preparation: DI and RL"
 tags: PTE
-categories: Other
+categories: English
 ---
 
 ## Describe Image
