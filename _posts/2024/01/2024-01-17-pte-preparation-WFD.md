@@ -5,7 +5,7 @@ categories: English
 toc: False
 ---
 <audio controls>
-  <source src="/assets/source/blog/mp3/2.0【易学PTE】高频1.0 - 听力WFD MP3 1-212（更新2024-01）.mp3" type="audio/mp3">
+  <source src="/assets/source/materials/pte/2.0【易学PTE】高频1.0%20-%20听力WFD%20MP3%201-212（更新2024-01）.mp3" type="audio/mp3">
 </audio>
 
 ```
