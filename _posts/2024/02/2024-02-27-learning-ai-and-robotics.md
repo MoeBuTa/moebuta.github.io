@@ -10,13 +10,12 @@ Creating my learning roadmap for AI and Robotics.
 
 graph TD;
 
-Resnet-->Transformer;
+id1["Deep Residual Learning for Image Recognition (Resnet)"] --> id2["Attention Is All You Need (Transformer)"];
 
-Transformer-->Robotics;
+id2-->id3["Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis (Robotics)"];
 
-Transformer-->LLM;
+id2-->LLM;
 
-Transformer-->TBD3;
 
 ```
 
@@ -32,7 +31,7 @@ _Attention Is All You Need_ [[Paper]](/assets/source/materials/papers/transforme
  - transformer: translation, images, audio, video generation/processing
  - encoder, decoder, attention-based models
 
-
+_Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis_ [[Paper]](/assets/source/materials/papers/robotics/survey/Toward General-Purpose Robots via Foundation Models A Survey and Meta-Analysis.pdf)
 
 _AUTORT: EMBODIED FOUNDATION MODELS FOR LARGE SCALE ORCHESTRATION OF ROBOTIC AGENTS_ [[Paper]](/assets/source/materials/papers/robotics/reasoning/AutoRT.pdf)
  - Autonomous robotics research: enable independent and broadly capable robotic agents
