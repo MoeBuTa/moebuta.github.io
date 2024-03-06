@@ -6,20 +6,22 @@ categories: Literature
 
 Creating my learning roadmap for AI and Robotics. 
 
+## Roadmap
+
 ```mermaid
 
 graph TD;
 
 id1["Resnet"] --> id2["Transformer"];
 
-id2-->d1((Robotic Foundations))
+id2-->d1([Robotic Foundations])
 
 
 d1-->id3["Toward General-Purpose Robots via Foundation Model"];
 
 d1-->id4["Foundation Models in Robotics"];
 
-id3-->d2((Robotics+LLM))
+id3-->d2([Robotics+LLM])
 
 id4-->d2
 
@@ -31,6 +33,7 @@ d2-->|cybersecurity|id6["DriveLLM"]
 ```
 
 
+## Paper list
 
 _Deep Residual Learning for Image Recognition_ [[Paper]](/assets/source/materials/papers/resnet/Deep Residual Learning for Image Recognition.pdf)
  - resnet: visual recognition, imageNet detection
