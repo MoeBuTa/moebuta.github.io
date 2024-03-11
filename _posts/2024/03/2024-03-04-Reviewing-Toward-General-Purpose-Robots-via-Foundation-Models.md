@@ -4,7 +4,7 @@ tags: AI Robotics
 categories: Literature
 ---
 
-Summarising _Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis_ [[Paper]](/assets/source/materials/papers/robotics/survey/Toward General-Purpose Robots via Foundation Models A Survey and Meta-Analysis.pdf)
+Reviewing _Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis_ [[Paper]](/assets/source/materials/papers/robotics/survey/Toward General-Purpose Robots via Foundation Models A Survey and Meta-Analysis.pdf)
 
 
 ## Robotic System Classification in General
@@ -15,20 +15,32 @@ graph LR;
 Start["Robotic System"]-->n1["Robot Perception"];
 n1-->n1.1("Passive Perception");
 
-n1-->n1.2("State Estimation");
+n1-->n1.2("State Estimation (SLAM)");
+n1.2-->n1.2.1("geometry-based solutions (traditional)");
+n1.2-->n1.2.2("supervised/self-supervised methods");
+
 
 n1-->n1.3("Active Perception");
 
 
 Start-->n2["Robot Decision-making and Planning"];
 n2-->n2.1("Classical Planning");
+n2.1-->n2.1.1("Search-based Planning");
+n2.1-->n2.1.2("Sampling-based Planning");
 
 n2-->n2.2("Learning-based Planning");
+n2.2-->n2.2.2("Reinforcement Learning")
 
 
 Start-->n3["Robot Action Generation"];
 n3-->n3.1("Classical Control");
+n3.1-->n3.1.1("Proportional-Integral-Derivative (PID)");
+n3.1-->n3.1.2("Model Predictive Control(MPC)");
+n3.1-->n3.1.3("Model Predictive Path Integral (MPPI)");
+
 n3-->n3.2("Learning-based Control");
+n3.2-->n3.2.1("Imitation Learning");
+n3.2-->n3.2.2("Reinforcement Learning");
 
 
 

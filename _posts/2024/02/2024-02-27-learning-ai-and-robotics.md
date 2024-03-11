@@ -4,36 +4,12 @@ tags: AI Robotics
 categories: Literature
 ---
 
-Creating my learning roadmap for AI and Robotics. 
-
-## Roadmap
-
-```mermaid
-
-graph TD;
-
-id1["Resnet"] --> id2["Transformer"];
-
-id2-->d1([Robotic Foundations])
-
-
-d1-->id3["Toward General-Purpose Robots via Foundation Model"];
-
-d1-->id4["Foundation Models in Robotics"];
-
-id3-->d2([Robotics+LLM])
-
-id4-->d2
-
-d2-->id5["AutoRT"];
-
-d2-->|cybersecurity|id6["DriveLLM"]
-
-
-```
-
+Listing papers I've read for AI and Robotics. 
 
 ## Paper list
+
+
+### Foundational models
 
 _Deep Residual Learning for Image Recognition_ [[Paper]](/assets/source/materials/papers/resnet/Deep Residual Learning for Image Recognition.pdf)
  - resnet: visual recognition, imageNet detection
@@ -45,12 +21,22 @@ _Attention Is All You Need_ [[Paper]](/assets/source/materials/papers/transforme
  - transformer: translation, images, audio, video generation/processing
  - encoder, decoder, attention-based models
 
+### Survey
+
 _Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis_ [[Paper]](/assets/source/materials/papers/robotics/survey/Toward General-Purpose Robots via Foundation Models A Survey and Meta-Analysis.pdf)
 
 _Foundation Models in Robotics: Applications, Challenges, and the Future_ [[Paper]](/assets/source/materials/papers/robotics/survey/Foundation Models in Robotics.pdf)
 
+### LLM Reasoning
+
 _AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents_ [[Paper]](/assets/source/materials/papers/robotics/reasoning/AutoRT.pdf)
- - Autonomous robotics research: enable independent and broadly capable robotic agents
 
-_DriveLLM: Charting the Path Toward Full Autonomous Driving With Large Language Models_ [[Paper]](/assets/source/materials/papers/robotics/llm/DriveLLM_Charting_the_Path_Toward_Full_Autonomous_Driving_With_Large_Language_Models.pdf)
+```mermaid
+graph LR;
+    
+```
+![img](/assets/source/image/blog/autort-arch.png)
 
+_DriveLLM: Charting the Path Toward Full Autonomous Driving With Large Language Models_ [[Paper]](/assets/source/materials/papers/robotics/reasoning/DriveLLM_Charting_the_Path_Toward_Full_Autonomous_Driving_With_Large_Language_Models.pdf)
+
+_On the Safety Concerns of Deploying LLMs/VLMs in Robotics: Highlighting the Risks and Vulnerabilities_ [[Paper]](/assets/source/materials/papers/robotics/reasoning/On%20the%20Safety%20Concerns%20of%20Deploying%20LLMs%20VLMs%20in%20Robotics.pdf)
