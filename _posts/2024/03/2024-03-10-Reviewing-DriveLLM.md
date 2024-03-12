@@ -2,10 +2,10 @@
 title: "Reviewing DriveLLM"
 tags: LLM Robotics
 categories: Literature
+imgUrl: "/assets/source/image/blog/"
 ---
 
-Reviewing _DriveLLM: Charting the Path Toward Full Autonomous Driving With Large Language Models_ [[Paper]]
-(/assets/source/materials/papers/robotics/reasoning/DriveLLM_Charting_the_Path_Toward_Full_Autonomous_Driving_With_Large_Language_Models.pdf)
+Reviewing _DriveLLM: Charting the Path Toward Full Autonomous Driving With Large Language Models_ [[Paper]](/assets/source/materials/papers/robotics/DriveLLM_Charting_the_Path_Toward_Full_Autonomous_Driving_With_Large_Language_Models.pdf)
 
 ![img](/assets/source/image/blog/drivellm%20high-level%20framework.png)
 
