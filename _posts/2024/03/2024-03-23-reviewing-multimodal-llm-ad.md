@@ -8,7 +8,7 @@ imgUrl: "/assets/source/image/blog/"
 Reviewing _A Survey on Multimodal Large Language Models for Autonomous Driving_ 
 [[Paper]](https://arxiv.org/abs/2311.12320)
 
-![img]({ imgUrl }mllm-ad.png)
+![img]({{ page.imgUrl }}mllm-ad.png)
 
 ## Recent LLM applications on Autonomous Driving
 

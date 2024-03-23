@@ -5,7 +5,7 @@ categories: Tech
 imgUrl: "/assets/source/image/blog/"
 ---
 
-![img]({ imgUrl }chatgpt-system-api.png)
+![img]({{ page.imgUrl }}chatgpt-system-api.png)
 
 
 ```python

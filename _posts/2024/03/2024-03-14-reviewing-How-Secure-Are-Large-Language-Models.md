@@ -15,4 +15,4 @@ graph LR;
     n1["Navigational Prompt Engineering"]
 ```
 
-![img]({{ imgUrl }}NPS-attack.png)
+![img]({{ page.imgUrl }}NPS-attack.png)
