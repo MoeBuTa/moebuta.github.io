@@ -96,3 +96,21 @@ graph LR;
 ```
 
 
+## Evaluation
+
+Real-time Performance:
+- decision-making time
+    - Token-per-minute (TPM)
+    - Decision-per-second (DPS)
+
+Spatial-Temporal Reasoning in Dynamic Environments:
+- existing LLMs process inputs independently without temporal aspects
+    - less effective when interacting with multiple dynamic objects (conservative)
+    - Mitigation:
+        - Responsibility-Sensitive Safety (RSS) model
+            - convert temporal object information (position, velocity...) into textual data
+
+Proactive Decision-making:
+- model can anticipate potential challenges and react accordingly
+    - integrating observations with commonsense reasoning
+
