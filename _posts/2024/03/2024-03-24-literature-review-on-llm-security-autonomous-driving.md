@@ -29,6 +29,13 @@ imgUrl: "/assets/source/image/blog/"
 [[Paper]](https://arxiv.org/abs/2310.01412)
  - BDD-X dataset, interpretation of vehicle actions - question answering
 
+
+### Knowledge-driven Authonomous Driving
+
+![img]({{ page.imgUrl }}knowledge-driven-ad.png)
+
+[[Paper]](https://arxiv.org/pdf/2312.04316.pdf)
+
 ### General
 ![img]({{ page.imgUrl }}llm-av-framework1.png) 
 
