@@ -7,8 +7,7 @@ imgUrl: "/assets/source/image/blog/"
 
 [LangChainForLLM](https://learn.deeplearning.ai/courses/langchain/lesson/1/introduction)
 
-
-## LangChain for LLM
+[[Learning RAG]]({{ site.baseurl }}/blog/2024/03/learning-langchain-for-rag)
 
 open-source development framework for LLM applications
 
