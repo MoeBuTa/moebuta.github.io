@@ -1,6 +1,6 @@
 ---
 title: "Reviewing Multimodal Large Language Models for Autonomous Driving"
-tags: LLM Robotics
+tags: LLM Robotics REV
 categories: Literature
 imgUrl: "/assets/source/image/blog/"
 ---

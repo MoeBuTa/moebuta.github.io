@@ -1,6 +1,6 @@
 ---
 title: "Learning LangChain"
-tags: LLM
+tags: LLM LangChain RAG
 categories: Tech
 imgUrl: "/assets/source/image/blog/"
 ---

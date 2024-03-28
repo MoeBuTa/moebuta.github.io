@@ -1,6 +1,6 @@
 ---
 title: "Reviewing DriveLLM"
-tags: LLM Robotics
+tags: LLM Robotics REV
 categories: Literature
 imgUrl: "/assets/source/image/blog/"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Learning LangChain for RAG"
-tags: LLM
+tags: LLM LangChain RAG
 categories: Tech
 imgUrl: "/assets/source/image/blog/"
 ---
@@ -52,4 +52,8 @@ imgUrl: "/assets/source/image/blog/"
 
 ![img]({{ page.imgUrl }}langchain-compression.png)
 
+
+## Question Answering
+
+![img]({{ page.imgUrl }}langchain-conversational-retrieval.png)
 
