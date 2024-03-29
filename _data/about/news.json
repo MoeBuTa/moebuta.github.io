@@ -1,14 +1,20 @@
 [
   {
-    "icon": "check",
-    "theme": "notice--warning",
+    "icon": "book",
+    "theme": "notice--success",
+    "date": "2024/03/25",
+    "content": "I'm officially starting my PhD study at UWA!"
+  },
+  {
+    "icon": "briefcase",
+    "theme": "notice--primary",
     "date": "2024/02/26",
     "content": "I'm starting a casual job as a lab facilitator for CITS1003 at UWA!"
   },
 
   {
     "icon": "graduation-cap",
-    "theme": "notice--success",
+    "theme": "notice--warning",
     "date": "2023/12/21",
     "content": "I've obtained an offer for the PhD program at UWA with a full scholarship!"
   },
@@ -16,7 +22,7 @@
 
   {
     "icon": "lightbulb",
-    "theme": "notice--primary",
+    "theme": "notice",
     "date": "2023/11/18",
     "content": "I'm now working on [Starick](https://github.com/codersforcauses/starick), a volunteer project held by the CFC club at UWA."
   }
