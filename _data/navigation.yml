@@ -6,10 +6,5 @@ main:
     url: /about
   - title: "Blog"
     url: /blog/
-#  - title: "Anime"
-#    url: /dip
-#  - title: "Game"
-#    url: /dip
-#  - title: "Fingerstyle"
-#    url: /dip
-##    url: /fingerstyle/
+  - title: "Resources"
+    url: /resources
