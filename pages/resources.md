@@ -1,7 +1,11 @@
----
-title: "Resources"
-permalink: '/resources'
----
+[//]: # (---)
 
+[//]: # (title: "Resources")
 
-[resources](/assets/source/materials)
+[//]: # (permalink: '/resources')
+
+[//]: # (---)
+
+[//]: # ()
+[//]: # ()
+[//]: # ([resources]&#40;/assets/source/materials&#41;)
