@@ -2,6 +2,7 @@
 title: "Literature Review Notes"
 tags: LLM Robotics
 categories: Literature
+imgUrl: /assets/source/image/blog/
 ---
 
 
