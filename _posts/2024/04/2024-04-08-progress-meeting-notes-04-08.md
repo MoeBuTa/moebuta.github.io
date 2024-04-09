@@ -31,7 +31,8 @@ graph LR;
 
 ## TODOs
 - [[Paper]](https://www.overleaf.com/project/660fbf6b9ea6dbdd103450d1).
-  - Working with Xiangrui.
+  - Working with Xiangrui. [[paper]](https://www.overleaf.com/project/660e10a7a7150a1f69475262) being accepted by 
+    IEEE IV 2024 conference.
   - [[ITSC]](https://its.papercept.net/conferences/scripts/start.pl) if possible (due 1st May), Suggestions?
   - Ideas? Is latency a good topic? 
     - Metrics?
@@ -39,14 +40,15 @@ graph LR;
     - what about other ideas? Accuracy?
 
 - Research Proposal:
-  - Improve the overall performance of LLM in the context of navigating robotics.
-    - Issues:
-      - Accuracy: 
-        - Multi-modal LLMs vs text only LLMs.
+  - Construct a framework for integrating LLM with robotics in the context of navigation.
+      - *Reasoning Accuracy: 
+        - Multi-modal LLMs vs text only LLMs - Spatial-temporal reasoning issue.
         - Common way in LLMs: Prompting, RAG, and Fine-tuning.
-      - Latency:
+      - Reasoning Latency:
         - On-premise open-source LLMs vs Cloud-based LLMs.
         - Scaling LLM size (light-LLM)
+      - Reasoning security:
+        - Evaluation framework.
     - Method:
       - Eyesim, Carla, ShuttleBus, Indoor robot?
       - LLM optimisations:
@@ -55,6 +57,6 @@ graph LR;
         - Fine-tuning?
 
 ## Additional
-- Add name?
+- Add name on paper?
 - Kaya account for using GPUs.
 - 
