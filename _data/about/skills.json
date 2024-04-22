@@ -1,10 +1,10 @@
 {
   "current": {
-    "programming": "Python, Javascript",
+    "programming": "Python",
     "vcs": "Git",
-    "web": "React.js, Next.js, Tailwind CSS, Flask, Jekyll",
+    "web": "React.js, Next.js, Tailwind CSS, Wordpress, Flask, Django, Jekyll",
     "automation": "Docker, GitHub Action",
-    "techniques": "LLM, Transformer, ROS 2"
+    "techniques": "LLM, RAG, Fine-tuning, ROS 2"
   },
 
   "other": {
@@ -12,7 +12,7 @@
     "vcs": "SVN",
     "web": "JQuery, Angular.js, Vue.js, Spring Boot, SpringMVC, MySQL, SQLite",
     "frameworks": {
-      "simulation": "SimPy, Gazebo",
+      "simulation": "SimPy, EyeSim, Gazebo",
       "visualisation": "Matplotlib, Seaborn, NetworkX, ggplot",
       "data_processing": "NumPy, Pandas, SciPy",
       "machine_learning": "Sckit-learn, TensorFlow, PyTorch"

@@ -51,6 +51,12 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
 </details>
 
+## Research Interests
+
+1. Adapting LLMs to specialised domains (robotics).
+2. LLM Prompting.
+3. LLM In-context Learning through RAG. 
+4. LLM Supervised Fine-tuning.
 
 ## Projects
 
@@ -122,8 +128,9 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 <summary></summary>
 
 {% assign games = site.data.about.games %}
+<img src="assets/source/image/blog/game.png" /><br>
 
-**Currently Playing / Wanna Play**:
+**Currently Playing**:
  - {{games.current}}
 
 **Previously Played**:
