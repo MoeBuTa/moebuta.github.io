@@ -68,3 +68,20 @@ for epoch in range(epochs):
 
 ![img]({{ page.imgUrl }}llm-evaluation-error-analysis.png)
 
+## Conclusion
+
+### Practical approach to finetuning
+
+1. figure out your task
+2. collect data related to the task's inputs/outputs
+3. Generate data if you don't have enough data
+4. finetune a small model (400m - 1b)
+5. vary the amount of data you give the model
+6. evaluate your LLM to know what's going well vs not
+7. collect more data to improve 
+8. increase task complexity
+9. increase model size for performance
+
+![img]({{ page.imgUrl }}conclusion-finetuning.png)
+
+![img]({{ page.imgUrl }}conclusion-finetuning-compute.png)

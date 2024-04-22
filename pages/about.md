@@ -17,14 +17,15 @@ permalink: /about
 
 I'm MoeBuTa (nickname) / Wenxiao (legal name).
 
-A graduate from The University of Western Australia with a Master's degree in Software Engineering.
+A PhD student at UWA.
 
-Python and Javascript are my primary programming languages for coursework and projects.
+Python is my primary programming language for projects.
+
+A graduate from UWA with a Master's degree in Software Engineering.
 
 Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
-An incoming PhD candidate(?)...
-
+...
 - 🔗 My website: [https://moebuta.github.io/](https://moebuta.github.io/)
 - 📫 You can reach me at [moebutamail@gmail.com](moebutamail@gmail.com) or [wenxiao.zhang@research.uwa.edu.au](wenxiao.zhang@research.uwa.edu.au)
 - 🖇️ Connect with me on LinkedIn: [https://www.linkedin.com/in/wenxiao-zhang-a0801b206/](https://www.linkedin.com/in/wenxiao-zhang-a0801b206/)
@@ -67,6 +68,8 @@ An incoming PhD candidate(?)...
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MoeBuTa&layout=compact&theme=tokyonight&card_width=500&langs_count=10)](https://github.com/MoeBuTa/github-readme-stats)
 
 [![MoeBuTa's GitHub stats](https://github-readme-stats.vercel.app/api?username=MoeBuTa&theme=tokyonight&rank_icon=github&card_width=500)](https://github.com/MoeBuTa/github-readme-stats)
+
+<img src="https://counter.seku.su/cmoe?name=MoeBuTa&theme=r34" /><br>
 
 </details>
 
