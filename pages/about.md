@@ -7,6 +7,7 @@ permalink: /about
 
 {::options parse_block_html="true" /}
 
+<img src="https://counter.seku.su/cmoe?name=moebuta.github.io&theme=r34" /><br>
 
 ## Intro
 
@@ -75,7 +76,7 @@ Also, a weeb, a fingerstyle guitar enthusiast, and a big fan of video games.
 
 [![MoeBuTa's GitHub stats](https://github-readme-stats.vercel.app/api?username=MoeBuTa&theme=tokyonight&rank_icon=github&card_width=500)](https://github.com/MoeBuTa/github-readme-stats)
 
-<img src="https://counter.seku.su/cmoe?name=moebuta.github.io&theme=r34" /><br>
+
 
 </details>
 
