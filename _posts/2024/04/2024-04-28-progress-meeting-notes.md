@@ -39,12 +39,31 @@ imgUrl: /assets/source/image/blog/
  - RLHF: Mitigate hallucinations
 
 
+
+## RLHF
+
+### RL guiding LLM
+
+LLM is the agent to control robot
+ - prompt tuning
+ - parameter tuning
+
+
+### LLM guiding RL
+
+RL is the agent to control robot
+ - convert human feedback to reward policy
+ - automatically generate reward policy based on tasks/scenarios
+
+
+## Framework Brainstorming
+
 Eyesim
- - Documents for retrieval
-   - [Assignments](https://roblab.org/courses/mobrob/labs/)
-   - [API](https://roblab.org/eyebot/robios.html)
-   - Data collected during the simulation
- - Structure brainstorming
+- Documents for retrieval
+    - [Assignments](https://roblab.org/courses/mobrob/labs/)
+    - [API](https://roblab.org/eyebot/robios.html)
+    - Data collected during the simulation
+- Structure brainstorming
 
 ```mermaid
 graph TD;
@@ -55,10 +74,12 @@ graph TD;
     C-->E[Post-retriever]
     D-->E
     E-->|Prompt|L[LLM]
-    L-->|Response|R
+    L-->|Response|RLHF
+    RLHF-->|Response|R
+    R-->|Reward|RLHF
+    RLHF-->|Reward|L
+    
 ```
-
-## RLHF
 
 ## Use cases brainstorming
  - Vehicle
