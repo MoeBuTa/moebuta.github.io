@@ -58,13 +58,31 @@ RL is the agent to control robot
 
 ## Framework Brainstorming
 
-Eyesim
-- Documents for retrieval
-    - [Assignments](https://roblab.org/courses/mobrob/labs/)
-    - [API](https://roblab.org/eyebot/robios.html)
-    - Data collected during the simulation
-- Structure brainstorming
+### Robot + LLM
+```mermaid
+graph TD;
+    R((Robot))-->|Prompt|L[LLM]
+    L-->|Response|R
 
+```
+
+
+### Robot + LLM + Retriever
+```mermaid
+graph TD;
+    R((Robot))-->|query|A[Retriever]
+    R-->|Update|D([State Logs])
+    A-->|Retrieve|C([Knowledge Base])
+    A-->|Retrieve|D
+    C-->E[Post-retriever]
+    D-->E
+    E-->|Prompt|L[LLM]
+    L-->|Response|R
+    
+```
+
+
+### Robot + LLM + Retriever + RLHF
 ```mermaid
 graph TD;
     R((Robot))-->|query|A[Retriever]
@@ -82,6 +100,10 @@ graph TD;
 ```
 
 ## Use cases brainstorming
+ - Eyesim
+   - [Assignments](https://roblab.org/courses/mobrob/labs/)
+   - [API](https://roblab.org/eyebot/robios.html)
+   - State Logs: Data collected during the simulation
  - Vehicle
    - Document:
    - State Logs:
