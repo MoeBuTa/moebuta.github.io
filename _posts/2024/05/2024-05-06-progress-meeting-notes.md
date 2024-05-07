@@ -34,7 +34,7 @@ graph TD;
 
 ![img]({{page.imgUrl}}scene-graph.png)
 
- - sensor-action graph (May constructed from hard coded script)
+ - sensor-action graph (May grab data from hard coded script)
    - giving a set of sensor data, find k most similar sensor nodes.
      - may start with one sensor with a few range of values
        - e.g.: distance sensor, range [0, 1000], 0-200, 200-400, 400-600, 600-800, 800-1000, >1000
@@ -54,15 +54,19 @@ graph TD;
     H --> A
 ```
 
-
  - trace logs
 
  - map
 
 
-## Lawnmower, Maze
+## Lawnmower / Maze
 
 hard coded script vs zero-shot LLM vs LLM + RAG
+
+![img]({{page.imgUrl}}lawnmower.png)
+
+
+![img]({{page.imgUrl}}maze.png)
 
 ## Issues
 
@@ -88,8 +92,4 @@ hard coded script vs zero-shot LLM vs LLM + RAG
  - User query
 
 
-## TODOs:
 
-1. Grab data from hard coded script
-2. Construct Graphs
-3. Prototype
