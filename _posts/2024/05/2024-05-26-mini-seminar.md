@@ -77,6 +77,7 @@ graph LR;
 ### Control
 ![img]({{ page.imgUrl }}control.png)
 
+## Related Works
 
 ### Before LLM Emergence
 
@@ -147,8 +148,12 @@ graph LR;
 LLM for Robotics Navigations using Eyesim simulator
 
 
+![img]({{ page.imgUrl }}eyesimllm.png)
 
 
-
+<video width="640" height="360" controls>
+  <source src="{{page.imgUrl}}eyesimllm.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
