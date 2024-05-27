@@ -82,7 +82,7 @@ graph LR;
     D --> D1[PID Control Loops]
     D1 --> D1a[Fundamental Method for Operational State Maintenance]
 
-    D --> D2[Model Predictive Control (MPC)]
+    D --> D2["Model Predictive Control (MPC)"]
     D2 --> D2a[Optimization-Based Action Sequence Generation]
     D2 --> D2b[Application in Dynamic Environments]
 
