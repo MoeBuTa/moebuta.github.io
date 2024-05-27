@@ -10,8 +10,7 @@ imgUrl: /assets/source/image/blog/
 
 ## Introduction
 
-**Key Points:**
-- **Significance of AI in Robotics:**
+**Significance of AI in Robotics:**
     - AI and machine learning advancements drive the rise of general-purpose robots.
     - Enables robots to perform diverse tasks with increased efficiency and adaptability.
 
@@ -40,20 +39,21 @@ imgUrl: /assets/source/image/blog/
   - Unpredictability of real-world environments because of the edge conditions.
 
 **Proposed Research Topics**
- - **Leveraging Large Language Models (LLMs)**:
+ - **Leveraging Large Language Models (LLMs) to control robots**:
    - **Pre-trained Foundation models**: 
      - large-scale models that are trained on extensive and diverse datasets to acquire a broad knowledge base.
      - Knowledge-rich and capable of reasoning across diverse tasks.
    - **Interpretation of Natural Language Instructions**: 
      - Enhances human-robot interaction.
    - **Multi-Modal Sensory Data Interpretation**: 
-     - Improves task planning and action generation.
+     - Improves task planning and control.
 
 **Research Questions**
  - How can LLMs be effectively integrated into general-purpose robotic systems to improve the 
  interpretation of natural language instructions and multi-modal sensory data for enhanced task planning and action 
    generation?
  - What are the optimal strategies that allows LLMs to access and utilize domain-specific knowledge in real-time to mitigate risks of inaccurate or false information and improve the performance and adaptability of general-purpose robots?
+ - How can LLMs be used to generate explanations for the actions taken by robots to enhance transparency and trust in human-robot interactions?
 
 
 ## Background
@@ -61,10 +61,8 @@ imgUrl: /assets/source/image/blog/
 ```mermaid
 
 graph LR;
-    A[Robotics]
-    A --> B[Perception]
-    A --> C[Planning]
-    A --> D[Control]
+    B[Perception] --> C[Planning]
+    C --> D[Control]
 ```
 
 ### Perception
@@ -89,7 +87,6 @@ graph LR;
     B1 --> B1a[Object Detection]
     B1 --> B1b[Semantic Segmentation]
     B1 --> B1c[Scene Reconstruction]
-
 
     B --> B2[State Estimation and SLAM]
     B2 --> B2a[Pose Estimation]
@@ -141,6 +138,7 @@ graph LR;
  - Control
    - generate actions based on the task plans and sensory data.
    - explain the actions taken in natural language.
+     - reference for the next action generation.
 
 
 ## Current Work
