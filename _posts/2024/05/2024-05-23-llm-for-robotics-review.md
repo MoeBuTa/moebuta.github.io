@@ -118,3 +118,14 @@ The environments can be structured, like a factory floor, or unstructured, like 
 
 General-purpose robots are designed to perform a wide range of tasks in various environments without the need for reprogramming or reconfiguration.
 
+## LLM advantages:
+
+- **Pre-trained Foundation models**:
+    - large-scale models that are trained on extensive and diverse datasets to acquire a broad knowledge base.
+        - can generalize knowledge across a wide range of tasks and domains.
+- **Interpretation of Natural Language Instructions**:
+    - enable robots to understand and respond to human commands in natural language,
+        - improving user interaction and accessibility.
+- **Multi-Modal Sensory Data Interpretation**:
+    - allow robots to interpret and respond to sensory data in natural language.
+        - improve explainability on task planning and action generation.
