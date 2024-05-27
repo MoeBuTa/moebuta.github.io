@@ -154,9 +154,9 @@ graph LR;
  - Perception
    - receive sensory data and interpret it in natural language.
  - Planning
-   - generate task plans based on natural language instructions and sensory data of the robot
+   - generate task plans based on natural language instructions and perception result.
  - Control
-   - generate actions based on the task plans and sensory data.
+   - generate actions based on the planning result.
    - explain the actions taken in natural language.
      - reference for the next action generation.
 
