@@ -5,7 +5,7 @@ categories: PhD
 imgUrl: /assets/source/image/blog/
 ---
 
-#  Employing Large Language Models for General-Purpose Robots
+#  Integrating Large Language Models for General-Purpose Robots
 
 
 ## Introduction
