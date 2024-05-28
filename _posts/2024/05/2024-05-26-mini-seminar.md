@@ -37,7 +37,8 @@ imgUrl: /assets/source/image/blog/
 
 ## Background
 
-3 processes in robotic system
+3 phases in robotic systems:
+
 ```mermaid
 
 graph LR;
