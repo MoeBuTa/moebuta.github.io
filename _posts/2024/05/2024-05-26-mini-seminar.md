@@ -37,7 +37,7 @@ imgUrl: /assets/source/image/blog/
 
 ## Background
 
-3 phases in robotic systems:
+3 phases in autonomous robotic systems:
 
 ```mermaid
 
