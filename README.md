@@ -7,3 +7,9 @@ My GitHub Pages website. You can visit it [here][moebuta].
 The project is powered by Jekyll & Minimal Mistakes. 
 
 [moebuta]: https://moebuta.github.io/
+
+
+```bash
+bundle exec jekyll serve
+```
+
